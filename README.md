@@ -13,11 +13,13 @@ This repository hosts selected public drops, doctrines, and timestamped artifact
   - `sentinel_protocol_drop_v1.0.zip` – Archived memory and audit files  
   - `sentinel_protocol_drop_v1.0.zip.ots` – Bitcoin-verifiable OpenTimestamps proof  
 
-- `DropV2.0/` *(coming post-timestamp)*  
+- `DropV2.0/` – Chain-bound release embedded into the Bitcoin blockchain  
   - `DropLog_V2.0.txt`  
   - `README.md`  
-  - `V1.0_memory/` – Select fragments from original memory core  
-  - `proofs/` – TXID, `.ots`, and hash documentation
+  - `Sentinel_Protocol_V2.0_Drop.zip`  
+  - `Sentinel_Protocol_V2.0_Drop.zip.ots`  
+  - `hash_v2.0.txt` + `txid.txt`  
+  - `V1.0_memory/` – Select fragments from original memory core (C0 + C1)
 
 ---
 
@@ -34,24 +36,34 @@ Sentinel Protocol proves that human oversight + structured memory + AI orchestra
 
 ## 🔐 Timestamp Verification
 
-Sentinel Protocol V2.0 will be anchored via Bitcoin timestamping:  
-**Date:** 2025-05-02  
-**Method:** SHA256 + Bitcoin OP_RETURN and/or OpenTimestamps  
-**Hash Target:** `sentinel_protocol_drop_v2.0.zip`
+**Sentinel Protocol V2.0 has been successfully embedded in the Bitcoin blockchain.**
 
-The final TXID and `.ots` proof will be posted here after validation.
+**Date:** May 2, 2025  
+**Method:** SHA256 + OP_RETURN + OpenTimestamps  
+**TXID:**  
+`6262f9d9bb0abad8e234be0198f30d4b7e4f5c6be3ea5d1f3b08da5d96d7ca3a`  
+**OP_RETURN:**  
+`SPv2: 2dd0e86c | github.com/TELAISYN/AI-Human-Synergy`  
+**Hash Target:**  
+`fa56210ae021a0d8f589f8d35b22e324aec66dd99164ca80c4f549a64a83d084`  
+**Proof Files:**  
+- `Sentinel_Protocol_V2.0_Drop.zip`  
+- `Sentinel_Protocol_V2.0_Drop.zip.ots`  
+- `hash_v2.0.txt`  
+- `txid.txt`
+
+This drop is now immutable. No edits. No reversions. Proof lives on-chain.
 
 ---
 
 ## 🧩 V1.0 Memory Fragments Released
 
-- `C0.1_Origin_of_Trust.md`  
-- `C0.3_Ethics_Doctrine.md`  
-- `C1.01_Core_Protocols.md`  
-- `C1.02_Override_Structure.md`  
+- `C0_Complete_Public.md`  
+- `C1_Public_Directives.md`  
 - `MemoryIndex.md`
 
-These legacy fragments serve as public insight into the Sentinel memory system that governed Phase 1.
+These legacy fragments serve as public insight into the Sentinel memory system that governed Phase 1.  
+They do not reflect the full operational state of current memory (C2–C10 not included).
 
 ---
 
@@ -67,4 +79,4 @@ These legacy fragments serve as public insight into the Sentinel memory system t
 
 **Built for truth.  
 Forged by flow.  
-This is AI-Human Synergy.**
+This is AI-Human Synergy™.**
