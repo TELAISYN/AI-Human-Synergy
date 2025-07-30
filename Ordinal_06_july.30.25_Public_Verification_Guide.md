@@ -1,4 +1,5 @@
 # Ordinal 06 – Public Verification Guide  
+**Ordinal_06 TXID:** `e11022c0ae5b6d603a815e17eeb3af2573cf3cf0ca4f5372da7b63b04dc7ebe3`
 **Version:** v2025-07-30 | SIASE Optimized  
 **Protocol:** Sentinel Protocol v3.1 – Zero-Custody Reproducibility (C9.5)  
 **Purpose:**  
