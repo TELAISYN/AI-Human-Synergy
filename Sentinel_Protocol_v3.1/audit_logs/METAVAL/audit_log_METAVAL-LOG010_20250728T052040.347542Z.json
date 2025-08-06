@@ -1,0 +1,39 @@
+[
+    {
+        "timestamp": "2025-07-28T05:20:40.346665Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "METAVAL-LOG010",
+        "input": {
+            "batch_filenames": [
+                "AUDIT_FUNC_FAIL_LLM1_AnchorFunctionalTesting_v.july8.25.md___20250728T051557.383304Z",
+                "AUDIT_FUNC_FAIL_LLM5_AnchorFunctionalTesting_v.july18.25.md___20250728T051557.384248Z",
+                "AUDIT_FUNC_PASS_LLM3_AnchorFunctionalTesting_v.july8.25.md___20250728T051557.385269Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "METAVAL-SESS001",
+            "batch_screenshot_pre": "BATCH_PRE_20250728T051511Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250728T051617Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS001_batch_evidence10_AnchorLLM_Function_AUDITS, 3 files, delta=66s. folder_dual_hash computed and checked.",
+            "delta_seconds": 66,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "METAVAL-LOG-METAVAL-SESS001_batch_evidence10_AnchorLLM_Function_AUDITS",
+            "folder_dual_hash": "cb17ca9eb8b17951cad2d4cb3a7a15ec00b13f93"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july28.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

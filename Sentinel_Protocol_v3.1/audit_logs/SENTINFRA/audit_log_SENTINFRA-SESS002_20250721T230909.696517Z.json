@@ -1,0 +1,35 @@
+[
+    {
+        "timestamp": "2025-07-21T23:09:09.696297Z",
+        "event": "VALIDATOR_REPRODUCIBILITY_HASH_CONFIRMED",
+        "meta_id": "SENTINFRA-SESS002",
+        "input": {
+            "document_title": "DRWOO-VAL Hash Confirmation \u2013 PreDeployment Audit",
+            "filename": "AUDIT-EVIDENCE_DRWOO-VAL_REPRODUCIBILITY_PASS_SENTINFRA_PreDeployment_sha256_ripemd160_v.july20.25.md___20250721T225702.419255Z",
+            "evidence_path": "evidence_files/AUDIT-EVIDENCE_DRWOO-VAL_REPRODUCIBILITY_PASS_SENTINFRA_PreDeployment_sha256_ripemd160_v.july20.25.md___20250721T225702.419255Z",
+            "sha256_file": "evidence_files/AUDIT-EVIDENCE_DRWOO-VAL_REPRODUCIBILITY_PASS_SENTINFRA_PreDeployment_sha256_ripemd160_v.july20.25.md___20250721T225702.419255Z.hash",
+            "ripemd160_file": "evidence_files/AUDIT-EVIDENCE_DRWOO-VAL_REPRODUCIBILITY_PASS_SENTINFRA_PreDeployment_sha256_ripemd160_v.july20.25.md___20250721T225702.419255Z.2ha",
+            "ots_file": "evidence_files/AUDIT-EVIDENCE_DRWOO-VAL_REPRODUCIBILITY_PASS_SENTINFRA_PreDeployment_sha256_ripemd160_v.july20.25.md___20250721T225702.419255Z.hash.ots",
+            "validator_id": "DRWOO-VAL001",
+            "session_meta_id": "SENTINFRA-SESS002",
+            "validation_step": "Validator DRWOO-VAL001 has confirmed reproducibility of the audit file. SHA256 and RIPEMD160 hashes verified against frozen source and OTS timestamp. OP_RETURN anchor pending. Compliance under C5.7 and C8.3 validated."
+        },
+        "output": {
+            "status": "hash_confirmed",
+            "validator_id": "DRWOO-VAL001",
+            "verifiable": true,
+            "sha256": "8c3554795ece0bf5034242922abaaed96c6fa19a36967c84dda79d7f8e5e61c8",
+            "ripemd160": "a54419605f5cb9fa7ce39dd5716fc18f9d43f464"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july21.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "meta_id": "SENTINFRA-SESS005",
+    "timestamp": "2025-07-28T04:10:45.477318Z",
+    "sha256": "bad5f03dd4b300625d5857113c533aed1745f8dc0bbd70244b814f3c970c9948",
+    "ripemd160": "e38e62262dfb8c283e7e0bf5504e92b22b6d1fb0",
+    "op_return": {
+        "txid": "ea2251eeaaf2f288e0f249d3c4c57346c934636aa2d37a7cac930537d1e3aaaa",
+        "payload": "SENTINEL|SENTINFRA-SESS005|e38e62262dfb8c283e7e0bf5504e92b22b6d1fb0",
+        "block_height": 907511
+    },
+    "ordinal": null
+}

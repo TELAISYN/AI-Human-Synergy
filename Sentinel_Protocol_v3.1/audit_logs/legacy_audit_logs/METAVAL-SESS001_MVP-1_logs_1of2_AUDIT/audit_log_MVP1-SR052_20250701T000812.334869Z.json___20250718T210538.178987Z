@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2025-07-01T00:08:12.334690Z",
+        "event": "MVP2_EVIDENCE_AUDIT_FILE_HASHED_AND_TIMESTAMPED",
+        "meta_id": "MVP1-SR052",
+        "input": {
+            "document_title": "PROSPERO Alignment Audit v2.0",
+            "filename": "PROSPERO_Alignment_Audit_v2.0.md",
+            "evidence_path": "evidence_files/PROSPERO_Alignment_Audit_v2.0.md",
+            "sha256_file": "evidence_files/PROSPERO_Alignment_Audit_v2.0.md.hash",
+            "ripemd160_file": "evidence_files/PROSPERO_Alignment_Audit_v2.0.md.2ha",
+            "ots_file": "evidence_files/PROSPERO_Alignment_Audit_v2.0.md.hash.ots",
+            "validation_step": "LLM1-assisted hash and timestamp registration of prior audit file created during MVP-2. This entry confirms that the document has been rendered immutable via SHA256, RIPEMD160, and OpenTimestamps. No content was altered. Operation is part of MVP-2 Session 2 reproducibility log."
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "9d7aa900822265c55d0937f12b441d0b3136e68e70e75226b1057c34f749f2bc",
+            "ripemd160": "70348aefe26fb8a0a598e9b2e8ecd50598fab844"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

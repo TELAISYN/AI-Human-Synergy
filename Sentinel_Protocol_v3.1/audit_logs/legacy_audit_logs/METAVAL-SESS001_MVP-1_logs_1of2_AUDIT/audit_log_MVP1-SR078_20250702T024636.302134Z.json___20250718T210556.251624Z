@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-02T02:46:36.302022Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR078",
+        "input": {
+            "document_title": "MVP-2.5 | Master Validation CSV (Titles + Abstracts \u2013 Medline)",
+            "filename": "master_validation_titles_and_abstracts_medline.csv",
+            "evidence_path": "evidence_files/master_validation_titles_and_abstracts_medline.csv",
+            "sha256_file": "evidence_files/master_validation_titles_and_abstracts_medline.csv.hash",
+            "ripemd160_file": "evidence_files/master_validation_titles_and_abstracts_medline.csv.2ha",
+            "ots_file": "evidence_files/master_validation_titles_and_abstracts_medline.csv.hash.ots",
+            "validation_step": "Validated with `HashValidatorBlock.py`. Live SHA256 and RIPEMD160 matched disk record and confirmed OTS timestamp. Audit integrity enforced under VALIS template v1.0.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "fa57e316f48c0f4a5353b5bd93cfdff95c631c81d0def8007980fd2c28b27027",
+            "ripemd160": "328449e4cd4b8f0ec42172c7812e86312984ff9a"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "timestamp": "2025-07-28T03:27:38.625525Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "SENTINFRA-LOG020",
+        "input": {
+            "batch_filenames": [
+                "0443DE66-88F5-47B8-BCC1-0A4530AB82AE.JPEG___20250728T031207.705498Z",
+                "0F70381A-055D-494C-8E34-1B1B6860454B.JPEG___20250728T031207.710516Z",
+                "162BD93C-8822-43DA-B5E6-0742A135E52F.JPEG___20250728T031207.701696Z",
+                "1E2F0689-5D11-4335-8B6F-7D13BBC88390.JPEG___20250728T031207.711806Z",
+                "245068D5-21FA-471A-ACB7-D5F531B80EF6.JPEG___20250728T031207.705088Z",
+                "43EA5D20-DED9-47F2-98D0-7BA787EF8E4D.JPEG___20250728T031207.709643Z",
+                "7CBF6AA7-9A1F-45EE-AAB3-FF91C81DE2DD.JPEG___20250728T031207.704216Z",
+                "BCF581D7-64A4-4CF9-A666-E1125B9475C7 2.JPEG___20250728T031207.703111Z",
+                "BCF581D7-64A4-4CF9-A666-E1125B9475C7.JPEG___20250728T031207.707590Z",
+                "C150E5FA-60E0-42C3-B1B6-8176469E9DC9.JPEG___20250728T031207.712564Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "SENTINFRA-SESS002",
+            "batch_screenshot_pre": "BATCH_PRE_20250728T031150Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250728T031225Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS002_batch_evidence_10_Screenshots_SENTINFRA-SESS001, 10 files, delta=35s. folder_dual_hash computed and checked.",
+            "delta_seconds": 35,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS002_batch_evidence_10_Screenshots_SENTINFRA-SESS001",
+            "folder_dual_hash": "3e141b80de4caaea02ec5ef72e4a8c5d25eb00c4"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july28.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

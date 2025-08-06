@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-02T02:43:04.970897Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR077",
+        "input": {
+            "document_title": "\u2705 MVP-2.5 Directory Architecture Blueprint (v2.0)",
+            "filename": "MVP-2.5 Directory Architecture Blueprint.md",
+            "evidence_path": "evidence_files/MVP-2.5 Directory Architecture Blueprint.md",
+            "sha256_file": "evidence_files/MVP-2.5 Directory Architecture Blueprint.md.hash",
+            "ripemd160_file": "evidence_files/MVP-2.5 Directory Architecture Blueprint.md.2ha",
+            "ots_file": "evidence_files/MVP-2.5 Directory Architecture Blueprint.md.hash.ots",
+            "validation_step": "Validated under `HashValidatorBlock.py`. Disk SHA256 and RIPEMD160 match confirmed with OpenTimestamps. VALIS hash firewall enforced under MVP-2.5 compliance mode.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "d91e616430f811ca9628fd648826c5c4fce9b026e6f6d34092cca274442147bc",
+            "ripemd160": "10194e878ef68d1f543da52a84a490b605b51e86"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

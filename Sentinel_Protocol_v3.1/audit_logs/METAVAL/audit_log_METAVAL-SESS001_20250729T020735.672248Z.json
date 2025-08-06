@@ -1,0 +1,33 @@
+[
+    {
+        "timestamp": "2025-07-29T02:07:35.671888Z",
+        "event": "ANCHOR_OP_RETURN_REGISTERED",
+        "meta_id": "METAVAL-SESS001",
+        "input": {
+            "session_context": "METAVAL-SESS001",
+            "txid": "cf229b23b074dd9aadfbf37451465725dc30430615e658c7cb44717ed0a4d26e",
+            "block_height": 907525,
+            "meta_id": "METAVAL-SESS001",
+            "op_return_payload": "SENTINEL|METAVAL-SESS001|ef9ea0c29816a081eaaaad408449bd282e63435a",
+            "validation_step": "Session `.2ha` anchor verified via OP_RETURN.\nBlock 907525 confirmed.\nTXID and payload recorded under compliance (C5.3, C9.5).",
+            "timestamp_registered": "2025-07-29T02:07:35.671881Z"
+        },
+        "output": {
+            "status": "anchored",
+            "anchored": true,
+            "txid": "cf229b23b074dd9aadfbf37451465725dc30430615e658c7cb44717ed0a4d26e",
+            "block": 907525,
+            "op_return_payload": "SENTINEL|METAVAL-SESS001|ef9ea0c29816a081eaaaad408449bd282e63435a"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july29.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

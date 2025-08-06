@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2025-07-01T03:47:20.316116Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR062",
+        "input": {
+            "document_title": "PROSPERO \u2013 Cardiac Meta-Analysis Protocol",
+            "filename": "PROSPERO The impact of preterm birth on cardiac structure and function \u2013 a systematic review and meta-analysis.pdf",
+            "evidence_path": "evidence_files/PROSPERO The impact of preterm birth on cardiac structure and function \u2013 a systematic review and meta-analysis.pdf",
+            "sha256_file": "evidence_files/PROSPERO The impact of preterm birth on cardiac structure and function \u2013 a systematic review and meta-analysis.pdf.hash",
+            "ripemd160_file": "evidence_files/PROSPERO The impact of preterm birth on cardiac structure and function \u2013 a systematic review and meta-analysis.pdf.2ha",
+            "ots_file": "evidence_files/PROSPERO The impact of preterm birth on cardiac structure and function \u2013 a systematic review and meta-analysis.pdf.hash.ots",
+            "validation_step": "This PROSPERO PDF protocol was validated using `HashValidatorBlock.py` with correct SHA256 and RIPEMD160 fingerprint. It defines the systematic review protocol for assessing preterm birth impact on cardiac structure and function. Audit validation confirms file has not been modified post-anchoring. MVP\u20132.3 hash firewall activated."
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "1887e548da3733521ad4419741a92220a7c818c905de50736b8b5733a1fa4b71",
+            "ripemd160": "ef5e7e04a9fdf0fdd48e36561cf52a1776dd16ac"
+        },
+        "audit": {
+            "AI_used": false,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

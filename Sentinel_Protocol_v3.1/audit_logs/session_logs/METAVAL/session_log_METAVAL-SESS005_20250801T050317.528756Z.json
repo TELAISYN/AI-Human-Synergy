@@ -1,0 +1,419 @@
+{
+ "session_meta_id": "METAVAL-SESS005",
+ "timestamp": "20250801T050317.528756Z",
+ "compiled_logs": [
+  {
+   "file": "audit_log_METAVAL-LOG014_20250729T015946.680804Z.json",
+   "meta_id": "METAVAL-LOG014",
+   "timestamp": "20250729T015946.680804Z",
+   "entries": [
+    {
+     "timestamp": "2025-07-29T01:59:46.680385Z",
+     "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+     "meta_id": "METAVAL-LOG014",
+     "input": {
+      "batch_filenames": [
+       "Screenshot 2025-07-28 at 3.24.06\u202fpm.png___20250729T015727.563106Z",
+       "Screenshot 2025-07-28 at 3.25.40\u202fpm.png___20250729T015727.562390Z"
+      ],
+      "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+      "session_context": "METAVAL-SESS002",
+      "batch_screenshot_pre": "BATCH_PRE_20250729T014752Z.png",
+      "batch_screenshot_post": "BATCH_POST_20250729T014857Z.png",
+      "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS002_batch_evidence01_Screenshots_METAVAL-SESS001, 2 files, delta=65s. folder_dual_hash computed and checked.",
+      "delta_seconds": 65,
+      "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+     },
+     "output": {
+      "status": "verifiable",
+      "verifiable": true,
+      "final_hash_disclosed": false,
+      "audit_type": "REPRODUCIBILITY",
+      "meta_id": "METAVAL-LOG-METAVAL-SESS002_batch_evidence01_Screenshots_METAVAL-SESS001",
+      "folder_dual_hash": "eb4e3527ce72858582916da56134de356a7a235c"
+     },
+     "audit": {
+      "AI_used": true,
+      "LLM_used": "LLM1",
+      "human_verified": true,
+      "module_version": "v.july29.25",
+      "ai_editor_LLM_human_agreement": true,
+      "VALIS_template_enforced": true,
+      "AI_override": false
+     },
+     "timestamp_confirmed": true
+    }
+   ],
+   "sha256": "d9ed88027fdbd9d0aab1a61c0306d709bd7575b48916a0d2c86e492344a6795a",
+   "2ha": "576c8b80bcbcc19ec9296180ad25a403e01457de",
+   "ots_file": "audit_log_METAVAL-LOG014_20250729T015946.680804Z.hash.ots"
+  },
+  {
+   "file": "audit_log_METAVAL-LOG015_20250729T015958.544576Z.json",
+   "meta_id": "METAVAL-LOG015",
+   "timestamp": "20250729T015958.544576Z",
+   "entries": [
+    {
+     "timestamp": "2025-07-29T01:59:58.544031Z",
+     "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+     "meta_id": "METAVAL-LOG015",
+     "input": {
+      "batch_filenames": [
+       ".DS_Store___20250729T015730.429877Z"
+      ],
+      "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+      "session_context": "METAVAL-SESS002",
+      "batch_screenshot_pre": "BATCH_PRE_20250729T014752Z.png",
+      "batch_screenshot_post": "BATCH_POST_20250729T014857Z.png",
+      "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS002_batch_evidence02_Re-executed_sha256_VALIDATORS_AUDIT_METAVAL-SESS001, 1 files, delta=65s. folder_dual_hash computed and checked.",
+      "delta_seconds": 65,
+      "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+     },
+     "output": {
+      "status": "verifiable",
+      "verifiable": true,
+      "final_hash_disclosed": false,
+      "audit_type": "REPRODUCIBILITY",
+      "meta_id": "METAVAL-LOG-METAVAL-SESS002_batch_evidence02_Re-executed_sha256_VALIDATORS_AUDIT_METAVAL-SESS001",
+      "folder_dual_hash": "5cc0bd07971d40c0361679fede6f656d85073dff"
+     },
+     "audit": {
+      "AI_used": true,
+      "LLM_used": "LLM1",
+      "human_verified": true,
+      "module_version": "v.july29.25",
+      "ai_editor_LLM_human_agreement": true,
+      "VALIS_template_enforced": true,
+      "AI_override": false
+     },
+     "timestamp_confirmed": true
+    }
+   ],
+   "sha256": "9c753f9a78398c787f8c047ec29d03f61495cebc5f8e2e3fd347938bd9f01b1f",
+   "2ha": "4185169f76b2a7adac6c80dccd88a74faffa09ee",
+   "ots_file": "audit_log_METAVAL-LOG015_20250729T015958.544576Z.hash.ots"
+  },
+  {
+   "file": "audit_log_METAVAL-SESS001_20250729T020735.672248Z.json",
+   "meta_id": "METAVAL-SESS001",
+   "timestamp": "20250729T020735.672248Z",
+   "entries": [
+    {
+     "timestamp": "2025-07-29T02:07:35.671888Z",
+     "event": "ANCHOR_OP_RETURN_REGISTERED",
+     "meta_id": "METAVAL-SESS001",
+     "input": {
+      "session_context": "METAVAL-SESS001",
+      "txid": "cf229b23b074dd9aadfbf37451465725dc30430615e658c7cb44717ed0a4d26e",
+      "block_height": 907525,
+      "meta_id": "METAVAL-SESS001",
+      "op_return_payload": "SENTINEL|METAVAL-SESS001|ef9ea0c29816a081eaaaad408449bd282e63435a",
+      "validation_step": "Session `.2ha` anchor verified via OP_RETURN.\nBlock 907525 confirmed.\nTXID and payload recorded under compliance (C5.3, C9.5).",
+      "timestamp_registered": "2025-07-29T02:07:35.671881Z"
+     },
+     "output": {
+      "status": "anchored",
+      "anchored": true,
+      "txid": "cf229b23b074dd9aadfbf37451465725dc30430615e658c7cb44717ed0a4d26e",
+      "block": 907525,
+      "op_return_payload": "SENTINEL|METAVAL-SESS001|ef9ea0c29816a081eaaaad408449bd282e63435a"
+     },
+     "audit": {
+      "AI_used": true,
+      "LLM_used": "LLM1",
+      "human_verified": true,
+      "module_version": "v.july29.25",
+      "ai_editor_LLM_human_agreement": true,
+      "VALIS_template_enforced": true,
+      "AI_override": false
+     },
+     "timestamp_confirmed": true
+    }
+   ],
+   "sha256": "bdc896f46932bd0e0a38691799da8137c8d5fdc7fdcd84b6eb7c98f3a19ddcf8",
+   "2ha": "5ac0423cdb82ef17e320c0f9b10849ba06cf9df8",
+   "ots_file": "audit_log_METAVAL-SESS001_20250729T020735.672248Z.hash.ots"
+  },
+  {
+   "file": "audit_log_METAVAL-LOG016_20250729T021043.873144Z.json",
+   "meta_id": "METAVAL-LOG016",
+   "timestamp": "20250729T021043.873144Z",
+   "entries": [
+    {
+     "timestamp": "2025-07-29T02:10:43.872701Z",
+     "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+     "meta_id": "METAVAL-LOG016",
+     "input": {
+      "batch_filenames": [
+       ".DS_Store___20250729T015732.486881Z"
+      ],
+      "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+      "session_context": "METAVAL-SESS002",
+      "batch_screenshot_pre": "BATCH_PRE_20250729T014752Z.png",
+      "batch_screenshot_post": "BATCH_POST_20250729T014857Z.png",
+      "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS002_batch_evidence03_Re-executed_ripemd160_VALIDATORS_AUDIT_METAVAL-SESS001, 1 files, delta=65s. folder_dual_hash computed and checked.",
+      "delta_seconds": 65,
+      "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+     },
+     "output": {
+      "status": "verifiable",
+      "verifiable": true,
+      "final_hash_disclosed": false,
+      "audit_type": "REPRODUCIBILITY",
+      "meta_id": "METAVAL-LOG-METAVAL-SESS002_batch_evidence03_Re-executed_ripemd160_VALIDATORS_AUDIT_METAVAL-SESS001",
+      "folder_dual_hash": "5cc0bd07971d40c0361679fede6f656d85073dff"
+     },
+     "audit": {
+      "AI_used": true,
+      "LLM_used": "LLM1",
+      "human_verified": true,
+      "module_version": "v.july29.25",
+      "ai_editor_LLM_human_agreement": true,
+      "VALIS_template_enforced": true,
+      "AI_override": false
+     },
+     "timestamp_confirmed": true
+    }
+   ],
+   "sha256": "e7680c542617d44c5cffcc2bc05a147d2665d887a49b606e59db3562bb14d389",
+   "2ha": "fab757e93a232a15b3ddba2bb4e7bc3ad4b098a8",
+   "ots_file": "audit_log_METAVAL-LOG016_20250729T021043.873144Z.hash.ots"
+  },
+  {
+   "file": "audit_log_METAVAL-LOG017_20250729T021057.694896Z.json",
+   "meta_id": "METAVAL-LOG017",
+   "timestamp": "20250729T021057.694896Z",
+   "entries": [
+    {
+     "timestamp": "2025-07-29T02:10:57.694442Z",
+     "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+     "meta_id": "METAVAL-LOG017",
+     "input": {
+      "batch_filenames": [
+       ".DS_Store___20250729T015734.485024Z",
+       "AUDIT-EVIDENCE_DRTELLES-VAL_REPRODUCIBILITY_METAVAL-SESS001_sha256_ripemd160_v.july19.25.md___20250729T015734.487299Z",
+       "hash_audit_report_DRTELLES-VAL_METAVAL-SESS001_frozen_files_BATCH-20250718T210514.271510Z.csv___20250729T015734.487800Z"
+      ],
+      "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+      "session_context": "METAVAL-SESS002",
+      "batch_screenshot_pre": "BATCH_PRE_20250729T014752Z.png",
+      "batch_screenshot_post": "BATCH_POST_20250729T014857Z.png",
+      "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS002_batch_evidence04_AUDIT-EVIDENCE_DRTELLES_ARCHITECT_VALIDATOR_DualHash_AUDIT_METAVAL-SESS001, 3 files, delta=65s. folder_dual_hash computed and checked.",
+      "delta_seconds": 65,
+      "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+     },
+     "output": {
+      "status": "verifiable",
+      "verifiable": true,
+      "final_hash_disclosed": false,
+      "audit_type": "REPRODUCIBILITY",
+      "meta_id": "METAVAL-LOG-METAVAL-SESS002_batch_evidence04_AUDIT-EVIDENCE_DRTELLES_ARCHITECT_VALIDATOR_DualHash_AUDIT_METAVAL-SESS001",
+      "folder_dual_hash": "fb17854bbc1901b29052aca75f90248ef4d85f78"
+     },
+     "audit": {
+      "AI_used": true,
+      "LLM_used": "LLM1",
+      "human_verified": true,
+      "module_version": "v.july29.25",
+      "ai_editor_LLM_human_agreement": true,
+      "VALIS_template_enforced": true,
+      "AI_override": false
+     },
+     "timestamp_confirmed": true
+    }
+   ],
+   "sha256": "73ab509a44a964128f538083b7d0921e0602286bd89cb773c9adaa0a721c2111",
+   "2ha": "8f45fb089c3e26c57d8f59516cb048f2af4b7183",
+   "ots_file": "audit_log_METAVAL-LOG017_20250729T021057.694896Z.hash.ots"
+  },
+  {
+   "file": "audit_log_METAVAL-LOG018_20250729T021112.430507Z.json",
+   "meta_id": "METAVAL-LOG018",
+   "timestamp": "20250729T021112.430507Z",
+   "entries": [
+    {
+     "timestamp": "2025-07-29T02:11:12.430150Z",
+     "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+     "meta_id": "METAVAL-LOG018",
+     "input": {
+      "batch_filenames": [
+       ".DS_Store___20250729T015736.500383Z",
+       "AUDIT-EVIDENCE_VALIDATORS_REPRODUCIBILITY_METAVAL-SESS001_opentimestamps_OTS_v.july29.25.md___20250729T015736.514120Z",
+       "METAVAL-SESS001_OTS_TXID_Block_Validation_CompiledScreenshots.pdf___20250729T015736.510177Z",
+       "Screenshot 2025-07-29 at 7.43.32\u202fam.png___20250729T015736.502915Z",
+       "Screenshot 2025-07-29 at 7.47.25\u202fam.png___20250729T015736.500365Z",
+       "Screenshot 2025-07-29 at 7.47.47\u202fam.png___20250729T015736.511887Z",
+       "Screenshot 2025-07-29 at 7.51.19\u202fam.png___20250729T015736.512281Z",
+       "Screenshot 2025-07-29 at 7.52.09\u202fam.png___20250729T015736.502434Z",
+       "Screenshot 2025-07-29 at 7.53.17\u202fam.png___20250729T015736.507818Z",
+       "Screenshot 2025-07-29 at 7.54.04\u202fam.png___20250729T015736.508811Z",
+       "Screenshot 2025-07-29 at 7.54.25\u202fam.png___20250729T015736.508367Z",
+       "Screenshot 2025-07-29 at 7.54.44\u202fam.png___20250729T015736.503171Z"
+      ],
+      "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+      "session_context": "METAVAL-SESS002",
+      "batch_screenshot_pre": "BATCH_PRE_20250729T014752Z.png",
+      "batch_screenshot_post": "BATCH_POST_20250729T014857Z.png",
+      "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS002_batch_evidence05_AUDIT-EVIDENCE_VALIDATORS_OTS_AUDIT_METAVAL-SESS001, 12 files, delta=65s. folder_dual_hash computed and checked.",
+      "delta_seconds": 65,
+      "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+     },
+     "output": {
+      "status": "verifiable",
+      "verifiable": true,
+      "final_hash_disclosed": false,
+      "audit_type": "REPRODUCIBILITY",
+      "meta_id": "METAVAL-LOG-METAVAL-SESS002_batch_evidence05_AUDIT-EVIDENCE_VALIDATORS_OTS_AUDIT_METAVAL-SESS001",
+      "folder_dual_hash": "55e9c7530eb76916afe13d2e5ab5d60cb3cb73a7"
+     },
+     "audit": {
+      "AI_used": true,
+      "LLM_used": "LLM1",
+      "human_verified": true,
+      "module_version": "v.july29.25",
+      "ai_editor_LLM_human_agreement": true,
+      "VALIS_template_enforced": true,
+      "AI_override": false
+     },
+     "timestamp_confirmed": true
+    }
+   ],
+   "sha256": "1125d7b27693387bd044fe23be441657ce618e1159250026a332a6e32e451ad5",
+   "2ha": "d6a19bc5b60a79846a3b147697b5d920534ad334",
+   "ots_file": "audit_log_METAVAL-LOG018_20250729T021112.430507Z.hash.ots"
+  },
+  {
+   "file": "audit_log_METAVAL-LOG019_20250729T021127.205293Z.json",
+   "meta_id": "METAVAL-LOG019",
+   "timestamp": "20250729T021127.205293Z",
+   "entries": [
+    {
+     "timestamp": "2025-07-29T02:11:27.204751Z",
+     "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+     "meta_id": "METAVAL-LOG019",
+     "input": {
+      "batch_filenames": [
+       ".DS_Store___20250729T015738.636609Z",
+       "AUDIT-EVIDENCE_ENGHOOKEY-VAL_REPRODUCIBILITY_METAVAL-SESS001_sha256_ripemd160_v.july29.25.md___20250729T015738.638305Z",
+       "hash_audit_report_ENGHOOKEY-VAL_METAVAL-SESS001.csv___20250729T015738.637718Z"
+      ],
+      "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+      "session_context": "METAVAL-SESS002",
+      "batch_screenshot_pre": "BATCH_PRE_20250729T014752Z.png",
+      "batch_screenshot_post": "BATCH_POST_20250729T014857Z.png",
+      "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS002_batch_evidence06_AUDIT-EVIDENCE_Independent_Engineer_VALIDATOR_DualHash_AUDIT_METAVAL-SESS001, 3 files, delta=65s. folder_dual_hash computed and checked.",
+      "delta_seconds": 65,
+      "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+     },
+     "output": {
+      "status": "verifiable",
+      "verifiable": true,
+      "final_hash_disclosed": false,
+      "audit_type": "REPRODUCIBILITY",
+      "meta_id": "METAVAL-LOG-METAVAL-SESS002_batch_evidence06_AUDIT-EVIDENCE_Independent_Engineer_VALIDATOR_DualHash_AUDIT_METAVAL-SESS001",
+      "folder_dual_hash": "e4c64d26fd919cfec2acc6182f893cebb7e0ed56"
+     },
+     "audit": {
+      "AI_used": true,
+      "LLM_used": "LLM1",
+      "human_verified": true,
+      "module_version": "v.july29.25",
+      "ai_editor_LLM_human_agreement": true,
+      "VALIS_template_enforced": true,
+      "AI_override": false
+     },
+     "timestamp_confirmed": true
+    }
+   ],
+   "sha256": "c44aa028c808b075cd90ecacba8bebbe028f7843ccc9597e23009338982babd0",
+   "2ha": "2430fa3052edd2dda26459d702e83b4c2fc91479",
+   "ots_file": "audit_log_METAVAL-LOG019_20250729T021127.205293Z.hash.ots"
+  },
+  {
+   "file": "audit_log_METAVAL-SESS002_20250729T023946.285136Z.json",
+   "meta_id": "METAVAL-SESS002",
+   "timestamp": "20250729T023946.285136Z",
+   "entries": [
+    {
+     "timestamp": "2025-07-29T02:39:46.284820Z",
+     "event": "FIREWALL_TRIGGER__RE-EXECUTION_PREVENTED",
+     "meta_id": "METAVAL-SESS002",
+     "input": {
+      "document_title": "Firewall Trigger \u2013 Re-execution Blocked (.DS_Store audit pre-exists)",
+      "filename": "Screenshot 2025-07-29 at 12.19.39\u202fpm.png___20250729T022958.106322Z",
+      "evidence_path": "evidence_files/Screenshot 2025-07-29 at 12.19.39\u202fpm.png___20250729T022958.106322Z",
+      "sha256_file": "evidence_files/Screenshot 2025-07-29 at 12.19.39\u202fpm.png___20250729T022958.106322Z.hash",
+      "ripemd160_file": "evidence_files/Screenshot 2025-07-29 at 12.19.39\u202fpm.png___20250729T022958.106322Z.2ha",
+      "ots_file": "evidence_files/Screenshot 2025-07-29 at 12.19.39\u202fpm.png___20250729T022958.106322Z.hash.ots",
+      "session_meta_id": "METAVAL-SESS002",
+      "validation_step": "Batch dual-hasher invoked on `processed_originals_` with existing log entry present. Live .DS_Store audit triggered and blocked duplicate entry. Compliant under C5.2.7, C5.3, C8.5 firewall enforcement."
+     },
+     "output": {
+      "status": "pass",
+      "firewall_enforced": true,
+      "re_execution_blocked": true,
+      "verifiable": true,
+      "sha256": "a357a187e8f597545e0f39dfec51ddf87f40050f5cce4e6d18ea3c151f972415",
+      "ripemd160": "019db702185b327c8368033a284e2b32a3236431"
+     },
+     "audit": {
+      "AI_used": true,
+      "LLM_used": "LLM1",
+      "human_verified": true,
+      "module_version": "v.july29.25",
+      "ai_editor_LLM_human_agreement": true,
+      "VALIS_template_enforced": true,
+      "AI_override": false
+     },
+     "timestamp_confirmed": true
+    }
+   ],
+   "sha256": "e9a5329057c7ec2d6908cfc7f5dacfd8a38c9e5e701bed32c36afb04a7eb3fa9",
+   "2ha": "ebb663c95de4c83990d4334257e2a1be5d8ad5cd",
+   "ots_file": "audit_log_METAVAL-SESS002_20250729T023946.285136Z.hash.ots"
+  },
+  {
+   "file": "audit_log_METAVAL-SESS002_20250729T024255.557981Z.json",
+   "meta_id": "METAVAL-SESS002",
+   "timestamp": "20250729T024255.557981Z",
+   "entries": [
+    {
+     "timestamp": "2025-07-29T02:42:55.557486Z",
+     "event": "FIREWALL_TRIGGER__RE-EXECUTION_PREVENTED",
+     "meta_id": "METAVAL-SESS002",
+     "input": {
+      "document_title": "Firewall Trigger \u2013 Re-execution Blocked (.DS_Store audit pre-exists)",
+      "filename": "Screenshot 2025-07-29 at 12.19.57\u202fpm.png___20250729T022955.541876Z",
+      "evidence_path": "evidence_files/Screenshot 2025-07-29 at 12.19.57\u202fpm.png___20250729T022955.541876Z",
+      "sha256_file": "evidence_files/Screenshot 2025-07-29 at 12.19.57\u202fpm.png___20250729T022955.541876Z.hash",
+      "ripemd160_file": "evidence_files/Screenshot 2025-07-29 at 12.19.57\u202fpm.png___20250729T022955.541876Z.2ha",
+      "ots_file": "evidence_files/Screenshot 2025-07-29 at 12.19.57\u202fpm.png___20250729T022955.541876Z.hash.ots",
+      "session_meta_id": "METAVAL-SESS002",
+      "validation_step": "Batch dual-hasher invoked on `processed_originals_` with existing log entry present. Live .DS_Store audit triggered and blocked duplicate entry. Logged under METAVAL-LOG015 and METAVAL-LOG016. Compliant under C5.2.7, C5.3, C8.5 firewall enforcement."
+     },
+     "output": {
+      "status": "pass",
+      "firewall_enforced": true,
+      "re_execution_blocked": true,
+      "verifiable": true,
+      "sha256": "583e5005b7a27e0d194a289786912da4e946c07c72e78555906c2fff7864bc60",
+      "ripemd160": "348f8227bd538a157c72b69547ef3379b24458e7"
+     },
+     "audit": {
+      "AI_used": true,
+      "LLM_used": "LLM1",
+      "human_verified": true,
+      "module_version": "v.july29.25",
+      "ai_editor_LLM_human_agreement": true,
+      "VALIS_template_enforced": true,
+      "AI_override": false
+     },
+     "timestamp_confirmed": true
+    }
+   ],
+   "sha256": "326351fd7b32511d5724cfedde1da31ffc3ba67ac2dee86a95756017c509801f",
+   "2ha": "bd458f92cf825bdbb20cfa74b1c8ab71b7d50cbe",
+   "ots_file": "audit_log_METAVAL-SESS002_20250729T024255.557981Z.hash.ots"
+  }
+ ]
+}

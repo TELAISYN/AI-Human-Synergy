@@ -1,0 +1,29 @@
+[
+    {
+        "timestamp": "2025-06-17T07:30:07.954932Z",
+        "event": "AU_PROVISIONAL_OPRETURN_ANCHOR_CONFIRMED",
+        "meta_id": "MVP1-SR034",
+        "input": {
+            "trigger": "Post-filing publication of dual-hash via Bitcoin OP_RETURN",
+            "jurisdiction": "IP Australia",
+            "ip_right_number": "2025902482",
+            "meta_id": "MVP1-SR033",
+            "sha256": "f6064036d3fa3d1801d865153c90f6f970557565067b42d48f43799b606c08d",
+            "ripemd160": "c08f096354d7a3c81dceb104f43bc5b40a31e58d"
+        },
+        "output": {
+            "status": "Confirmed on-chain OP_RETURN publication for AU jurisdiction",
+            "txid": "964e6b06a207363be59e853bedbd1dddf21ba5d881b8d7d1a5e4e8e383c7bc48",
+            "payload": "SENTINEL|MVP1|AU|2025902482|c08f096354d7a3c81dceb104f43bc5b40a31e58d",
+            "blockchain": "Bitcoin mainnet",
+            "confirmation_status": "\u2713 Confirmed block height 901599",
+            "linked_log": "audit_log_MVP1-SR033_*.json"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0"
+        }
+    }
+]

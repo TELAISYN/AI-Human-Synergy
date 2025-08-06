@@ -1,0 +1,33 @@
+[
+    {
+        "timestamp": "2025-07-21T03:03:20.456230Z",
+        "event": "ANCHOR_OP_RETURN_REGISTERED",
+        "meta_id": "SENTINFRA-SESS001",
+        "input": {
+            "session_context": "SENTINFRA-SESS001",
+            "txid": "c4d2e53197983bf84f219b6b3cf4912fa5ebd3c030ae3debf7f35c1eef135e1c",
+            "block_height": 906434,
+            "meta_id": "SENTINFRA-SESS001",
+            "op_return_payload": "SENTINEL|SENTINFRA-SESS001|2ebc6ec29d3195f6d3b7050cacc75e145aaa1ad7",
+            "validation_step": "Session `.2ha` anchor verified via OP_RETURN.\nBlock 906434 confirmed.\nTXID and payload recorded under compliance (C5.3, C9.5).",
+            "timestamp_registered": "2025-07-21T03:03:20.456215Z"
+        },
+        "output": {
+            "status": "anchored",
+            "anchored": true,
+            "txid": "c4d2e53197983bf84f219b6b3cf4912fa5ebd3c030ae3debf7f35c1eef135e1c",
+            "block": 906434,
+            "op_return_payload": "SENTINEL|SENTINFRA-SESS001|2ebc6ec29d3195f6d3b7050cacc75e145aaa1ad7"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july21.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "timestamp": "2025-07-29T02:42:55.557486Z",
+        "event": "FIREWALL_TRIGGER__RE-EXECUTION_PREVENTED",
+        "meta_id": "METAVAL-SESS002",
+        "input": {
+            "document_title": "Firewall Trigger \u2013 Re-execution Blocked (.DS_Store audit pre-exists)",
+            "filename": "Screenshot 2025-07-29 at 12.19.57\u202fpm.png___20250729T022955.541876Z",
+            "evidence_path": "evidence_files/Screenshot 2025-07-29 at 12.19.57\u202fpm.png___20250729T022955.541876Z",
+            "sha256_file": "evidence_files/Screenshot 2025-07-29 at 12.19.57\u202fpm.png___20250729T022955.541876Z.hash",
+            "ripemd160_file": "evidence_files/Screenshot 2025-07-29 at 12.19.57\u202fpm.png___20250729T022955.541876Z.2ha",
+            "ots_file": "evidence_files/Screenshot 2025-07-29 at 12.19.57\u202fpm.png___20250729T022955.541876Z.hash.ots",
+            "session_meta_id": "METAVAL-SESS002",
+            "validation_step": "Batch dual-hasher invoked on `processed_originals_` with existing log entry present. Live .DS_Store audit triggered and blocked duplicate entry. Logged under METAVAL-LOG015 and METAVAL-LOG016. Compliant under C5.2.7, C5.3, C8.5 firewall enforcement."
+        },
+        "output": {
+            "status": "pass",
+            "firewall_enforced": true,
+            "re_execution_blocked": true,
+            "verifiable": true,
+            "sha256": "583e5005b7a27e0d194a289786912da4e946c07c72e78555906c2fff7864bc60",
+            "ripemd160": "348f8227bd538a157c72b69547ef3379b24458e7"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july29.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

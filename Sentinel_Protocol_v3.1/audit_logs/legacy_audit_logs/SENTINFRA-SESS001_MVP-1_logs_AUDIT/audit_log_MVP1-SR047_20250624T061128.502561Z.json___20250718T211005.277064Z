@@ -1,0 +1,29 @@
+[
+    {
+        "timestamp": "2025-06-24T06:11:28.502428Z",
+        "event": "MVP1_SESSION_ANCHOR_TX_CONFIRMED",
+        "meta_id": "MVP1-SR047",
+        "input": {
+            "session_meta_id": "MVP1-SESS001",
+            "log_file": "session_log_MVP1-SESS001_20250624T034016.022526Z.json",
+            "sha256": "f237f7f6f02f6afd5802a8a7ed636622a8e37b4a0d58c95e467add74f6b0dad6",
+            "ripemd160": "f7d6d022a9d64028e489efe914242301e3962bba",
+            "op_return_txid": "bd7a9083ca4e3d344e954b6b1fb103f5e60ac991b3b899dea128ac8f5b21b5d3",
+            "block_height": 902485,
+            "anchor_payload": "SENTINEL|MVP1-SESS001|f7d6d022a9d64028e489efe914242301e3962bba"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "anchor_manifest": "anchor_log_MVP1-SESS001_20250624T053815.065023Z.json"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

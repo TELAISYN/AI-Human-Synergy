@@ -1,0 +1,12 @@
+{
+    "meta_id": "LCC-SESS001",
+    "timestamp": "2025-06-26T05:42:22.370216Z",
+    "sha256": "54c945f0d1351a01bd8924b7f429b8497a2fc8ecf8c43eb5bde31fd1a8997d1f",
+    "ripemd160": "0bce7320a41f387ba9997b7dfafdaffd28019b98",
+    "op_return": {
+        "txid": "12f475d81a9572e9131fc17595dabf915c012db951d8abf3b676e29efd98371b",
+        "payload": "LCC|LCC-SESS001|0bce7320a41f387ba9997b7dfafdaffd28019b98",
+        "block_height": 902761
+    },
+    "ordinal": null
+}

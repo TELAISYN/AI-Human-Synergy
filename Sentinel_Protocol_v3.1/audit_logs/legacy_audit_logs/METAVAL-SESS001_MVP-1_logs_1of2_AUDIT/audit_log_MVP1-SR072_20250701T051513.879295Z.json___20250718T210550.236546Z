@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-01T05:15:13.879156Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR072",
+        "input": {
+            "document_title": "MVP-2.5 | HumanAudit \u2013 LLM3 vs LLM4 Titles & Abstracts (Combined Set)",
+            "filename": "HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv",
+            "evidence_path": "evidence_files/HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv",
+            "sha256_file": "evidence_files/HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv.hash",
+            "ripemd160_file": "evidence_files/HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv.2ha",
+            "ots_file": "evidence_files/HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv.hash.ots",
+            "validation_step": "Confirmed valid under `HashValidatorBlock.py`. Disk SHA256 and RIPEMD160 hashes match `.hash` and `.2ha` values respectively. OTS timestamp file present and verified. Template used: VALIS_Template_Canonical_v1.py.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "8a705e74ee77fe3f9acd324d0a63e73ab8d7afacfee36593c822c720a320171a",
+            "ripemd160": "6504105816d00d8ab3bea667a166ea7bc36e4b0e"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

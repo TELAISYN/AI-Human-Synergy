@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-01T05:22:30.725639Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR075",
+        "input": {
+            "document_title": "MVP-2.5 | 4-Tier Human\u2013LLM Agreement System",
+            "filename": "4-Tier HumanLLM Agreement System.md",
+            "evidence_path": "evidence_files/4-Tier HumanLLM Agreement System.md",
+            "sha256_file": "evidence_files/4-Tier HumanLLM Agreement System.md.hash",
+            "ripemd160_file": "evidence_files/4-Tier HumanLLM Agreement System.md.2ha",
+            "ots_file": "evidence_files/4-Tier HumanLLM Agreement System.md.hash.ots",
+            "validation_step": "Validated by `HashValidatorBlock.py` under full firewall enforcement. Disk SHA256 and RIPEMD160 matched stored hash records, OpenTimestamps found. VALIS_Template_Canonical_v1.py structure confirmed.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "dec7079df3b02b3659d269e0814ea2fdd609eb76d8590418bea1071339647846",
+            "ripemd160": "1266b3fa296c1bc0df2ed13036ebe346387fd9a9"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "timestamp": "2025-07-19T07:26:55.317202Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "SENTINFRA-LOG006",
+        "input": {
+            "batch_filenames": [
+                ".DS_Store___20250719T071421.017171Z",
+                "C0.0.1_IntegrityMode_Metadata_v1.0_v3.0.md___20250719T071421.030074Z",
+                "C0.0.2_IntegrityMode_Activate_v1.0_v3.0.md___20250719T071421.033088Z",
+                "C0.0.3_IntegrityMode_VerifyConversion_v1.0_v3.0.md___20250719T071421.040677Z",
+                "C0.0.4_IntegrityMode_HaltAndLog_v1.0_v3.0.md___20250719T071421.019009Z",
+                "C0.0.5_IntegrityMode_StatusAndUsage_v1.0_v3.0.md___20250719T071422.966162Z",
+                "C0.1_SystemBriefing_LLM2Output_v3.1.md___20250719T071421.028621Z",
+                "C0.4_ModularStructureGuide_Part1_v1.1_v3.0.md___20250719T071421.022134Z",
+                "C0.4_ModularStructureGuide_Part2_v3.0.md___20250719T071421.027872Z",
+                "C0.4_ModularStructureGuide_Part3_v1.1_v3.0.md___20250719T071421.035737Z",
+                "C0.4_ModularStructureGuide_Part4_v3.0.md___20250719T071421.051308Z",
+                "C0.9_Execution_AIThread_Protocol.md___20250719T071422.965513Z",
+                "C0_PersonalCoreMemory_v3.0.md___20250719T071421.006598Z",
+                "C1.0_SentinelProtocol_MissionDefinition_v1.0_v3.0.md___20250719T071421.010431Z",
+                "C1.1_SIASE_v3.1.md___20250719T071421.016642Z",
+                "C1.2_SentinelFeedbackLoopProtocol_v3.1.md___20250719T071421.041857Z",
+                "C1.3_SNTPTC_PlaceholderTaggingProtocol_v3.1.md___20250719T071421.017980Z",
+                "C1_CoreProtocols_v3.0.md___20250719T071421.028729Z",
+                "C2.3_MVP_ExecutionRoadmap_v3.1.md___20250719T071421.027416Z",
+                "C2.6_SentinelProtocol_SystemMap_v3.1.md___20250719T071422.965663Z",
+                "C2_MVP_Structure_v3.1.md___20250719T071421.004768Z",
+                "C5.1_LegalDoctrine_update_v.july6.25.md___20250719T071422.964393Z",
+                "C5.2.7_RetrievalIntegrityMetrics_v.july11.25.md___20250719T071421.005360Z",
+                "C5.2_EthicsFirewall_v3.0.md___20250719T071421.032792Z",
+                "C5.3_ComplianceEnforcementMatrix_update_v.july6.25.md___20250719T071421.036854Z",
+                "C5.7_CredentialAudit_Doctrine_v.july14.25.md___20250719T071422.967143Z",
+                "C7.0_MultiAgentMemorySync_update_v.july17.25.md___20250719T071421.009462Z",
+                "C7.1_StrategistNodeIntegration_v3.1.md___20250719T071421.008950Z",
+                "C8.3_CodeExecution_rewired_v_july.13.25.md___20250719T071421.025484Z",
+                "C8.5_BatchEvidenceAgreementProtocol_v1.0.md___20250719T071421.030741Z",
+                "C9.0_Clinical_Trials_Monetization_Pathway_SentinelProtocolv3.1.md___20250719T071422.964979Z",
+                "C9.1_Clinical_Trials_AuditExecution_v3.1.md___20250719T071422.966627Z",
+                "C9.3_ControlledNodeAccessGrid_v3.1.md___20250719T071421.038462Z",
+                "C9.5_ZeroCustodyReproducibilityProtocol_v3.1.md___20250719T071421.023124Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "SENTINFRA-SESS001",
+            "batch_screenshot_pre": "BATCH_PRE_20250719T071154Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250719T071509Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS001_batch_evidence_06_SentinelProtocol_v3.1, 34 files, delta=195s. folder_dual_hash computed and checked.",
+            "delta_seconds": 195,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS001_batch_evidence_06_SentinelProtocol_v3.1",
+            "folder_dual_hash": "064080e94b42c3cc169c73c3705433ee1c13ebe7"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july19.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "meta_id": "TINV-SESS001",
+    "timestamp": "2025-06-26T05:01:45.206820Z",
+    "sha256": "edd7541740bda12f853f953654bbf913a45ad7c826fe71596b42465f51fc0da4",
+    "ripemd160": "04a9bd98602f7273ae791d38a84c38815c94977e",
+    "op_return": {
+        "txid": "420e5ad4946be42dd9f4e09380c8146c9cb4823f61816f78c6fa7a7fdfce6bfe",
+        "payload": "TINV|TINV-SESS001|04a9bd98602f7273ae791d38a84c38815c94977e",
+        "block_height": 902751
+    },
+    "ordinal": null
+}

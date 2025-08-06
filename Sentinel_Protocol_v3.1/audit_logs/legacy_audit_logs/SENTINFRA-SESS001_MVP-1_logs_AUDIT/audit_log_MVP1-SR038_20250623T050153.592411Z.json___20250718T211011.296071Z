@@ -1,0 +1,110 @@
+[
+    {
+        "timestamp": "2025-06-23T04:56:23.508557Z",
+        "event": "MVP1_CEM_FIREWALL_TEST",
+        "meta_id": "MVP1-SR038",
+        "input": {
+            "description": "Test of compliance rule enforcement logic",
+            "module": "AuditLogger.py v1.3",
+            "test_type": "violation_trigger",
+            "rule_triggered": "Rule 1 \u2013 human_verified == False"
+        },
+        "output": {
+            "status": "verifiable",
+            "sha256": "abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+            "payload": "SENTINEL|MVP1-TEST|abcdef90"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": false,
+            "module_version": "v1.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-23T04:57:49.239817Z",
+        "event": "MVP1_CEM_RULE2_TEST",
+        "meta_id": "MVP1-SR038",
+        "input": {
+            "description": "Trigger Rule 2: AI override with no timestamp confirmation",
+            "module": "AuditLogger.py v1.3",
+            "test_type": "violation_trigger",
+            "AI_override": true
+        },
+        "output": {
+            "status": "verifiable",
+            "sha256": "aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899",
+            "payload": "SENTINEL|MVP1-RULE2|8899aabb"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-23T04:59:09.273352Z",
+        "event": "MVP1_CEM_RULE3_TEST",
+        "meta_id": "MVP1-SR038",
+        "input": {
+            "description": "Trigger Rule 3: Hallucinated output",
+            "module": "AuditLogger.py v1.3",
+            "test_type": "violation_trigger"
+        },
+        "output": {
+            "status": "hallucinated",
+            "sha256": "ffeeddccbbaa99887766554433221100ffeeddccbbaa99887766554433221100",
+            "payload": "SENTINEL|MVP1-RULE3|211000ff"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-23T05:01:41.426009Z",
+        "event": "MVP1_CEM_RULE2_TEST",
+        "meta_id": "MVP1-SR038",
+        "input": {
+            "description": "Trigger Rule 2: AI override with no timestamp confirmation",
+            "module": "AuditLogger.py v1.3",
+            "test_type": "violation_trigger",
+            "AI_override": true
+        },
+        "output": {
+            "status": "verifiable",
+            "sha256": "aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899",
+            "payload": "SENTINEL|MVP1-RULE2|8899aabb"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-23T05:01:53.592242Z",
+        "event": "MVP1_CEM_RULE3_TEST",
+        "meta_id": "MVP1-SR038",
+        "input": {
+            "description": "Trigger Rule 3: Hallucinated output",
+            "module": "AuditLogger.py v1.3",
+            "test_type": "violation_trigger"
+        },
+        "output": {
+            "status": "hallucinated",
+            "sha256": "ffeeddccbbaa99887766554433221100ffeeddccbbaa99887766554433221100",
+            "payload": "SENTINEL|MVP1-RULE3|211000ff"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0"
+        }
+    }
+]

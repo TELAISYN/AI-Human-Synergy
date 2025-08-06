@@ -1,0 +1,51 @@
+[
+    {
+        "timestamp": "2025-07-28T03:28:15.551556Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "SENTINFRA-LOG022",
+        "input": {
+            "batch_filenames": [
+                ".DS_Store___20250728T031212.502435Z",
+                "BatchStream_Instructions canonical_auditlogger_terminal_template.py.md___20250728T031212.510092Z",
+                "C5.8_HashValidatorBlock_ExecutionRules_v1.0.md___20250728T031212.511239Z",
+                "C8.6_LivestreamModule_v1.0.md___20250728T031212.506228Z",
+                "C9.2_Strategic_Publishing_Doctrine_SentinelProtocol_v1.1.md___20250728T031212.512248Z",
+                "C9.6_SIASE_Tier1_AI_HumanAuditExecution_v1.0.md___20250728T031212.512676Z",
+                "C9.7_MetaID_ValidatorMap_v1.0.md___20250728T031212.510826Z",
+                "C9.8.1_Local_LLM_Training_Blueprint_v2.0.md___20250728T031212.502310Z",
+                "C9.8_meta-analysis.ai_Multi-LLM_Orchestration_Hybrid_Software_LocalLLMvalidation_Blueprint_v1.0.md___20250728T031212.511891Z",
+                "LiveStream_Instructions_canonical_auditlogger_terminal_livestream_template.py.md___20250728T031212.507927Z",
+                "Updated_C8.3_REWIRED_v.july21.25.md___20250728T031212.512880Z",
+                "Updated_C8.5_BatchEvidenceAgreementProtocol_vjuly21.25.md___20250728T031212.500131Z",
+                "batchstream_canonical_auditlogger_terminal_template.py___20250728T031212.501544Z",
+                "livestream_canonical_auditlogger_terminal_template.py___20250728T031212.516280Z",
+                "opreturn_anchor_terminal_template.py.md___20250728T031212.507815Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "SENTINFRA-SESS002",
+            "batch_screenshot_pre": "BATCH_PRE_20250728T031150Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250728T031225Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS002_batch_evidence_12_SentinelProtocolv3.1_updated_modules, 15 files, delta=35s. folder_dual_hash computed and checked.",
+            "delta_seconds": 35,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS002_batch_evidence_12_SentinelProtocolv3.1_updated_modules",
+            "folder_dual_hash": "269b00e54239fdd7154b93add28341999f92d416"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july28.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

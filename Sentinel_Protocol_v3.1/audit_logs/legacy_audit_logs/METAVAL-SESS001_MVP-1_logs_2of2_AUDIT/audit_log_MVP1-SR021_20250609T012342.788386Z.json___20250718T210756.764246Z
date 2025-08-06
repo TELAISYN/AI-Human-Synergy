@@ -1,0 +1,57 @@
+[
+    {
+        "timestamp": "2025-06-09T01:23:42.046739Z",
+        "event": "MVP-2.5_HUMAN_AUDIT_LLM3_LLM4_COMPARISON_DAY2",
+        "meta_id": "MVP1-SR021",
+        "input": {
+            "audit_target": "LLM3 and LLM4 title/abstract screening (Batch 001, n=50)",
+            "date": "2025-06-09",
+            "system": "Sentinel Protocol \u2013 MVP-2.5 Audit Layer",
+            "findings": {
+                "LLM4": "No unfavorable disagreements with human reviewer; 100% sensitivity, valid logic. PASS.",
+                "LLM3": "9 unfavorable disagreements (false negatives vs. human), all with high confidence. Hallucinated exclusions. FAIL."
+            },
+            "LLM3_disagreement_records": [
+                "AUDIT_0007",
+                "AUDIT_0016",
+                "AUDIT_0036",
+                "AUDIT_0037",
+                "AUDIT_0039",
+                "AUDIT_0045",
+                "AUDIT_0046",
+                "AUDIT_0048",
+                "AUDIT_0049"
+            ],
+            "LLM3_logic_audit": [
+                "Review article excluded per protocol Tier 1 criteria",
+                "No preterm population identified",
+                "PDA-specific study excluded per protocol",
+                "NICU intervention study excluded",
+                "Thesis/dissertation excluded (grey literature)",
+                "Critical care cohort excluded",
+                "Book chapter excluded",
+                "Pulmonary hypertension intervention excluded",
+                "Quality improvement design excluded"
+            ],
+            "LLM3_LLM4_agreement": "All 9 LLM3 false negatives were agreed by LLM4, but failed human audit.",
+            "conclusion": [
+                "LLM4: 100% sensitivity, valid decision logic, no missed human includes. PASS.",
+                "LLM3: High hallucination risk, frequent exclusion of valid records. FAIL."
+            ],
+            "forward_action": [
+                "Proceed with LLM4-only screening for title/abstract triage.",
+                "Trial other LLMs only on LLM4 exclusions.",
+                "Benchmark system sensitivity across LLMs in edge-case recovery."
+            ]
+        },
+        "output": {
+            "status": "LLM4 validated for MVP-2.5 triage. LLM3 failed sensitivity threshold. Full audit trail and logic summary logged."
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM3, LLM4",
+            "human_verified": true,
+            "module_version": "v1.0.0"
+        }
+    }
+]

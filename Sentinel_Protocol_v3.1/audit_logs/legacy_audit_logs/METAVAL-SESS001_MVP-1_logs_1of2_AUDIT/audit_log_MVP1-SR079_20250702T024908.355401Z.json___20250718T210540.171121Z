@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-02T02:49:08.355260Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR079",
+        "input": {
+            "document_title": "MVP-2.5 | LLM-Optimised Master Validation CSV (Medline)",
+            "filename": "LLM_optimised_master_validation_titles_and_abstracts_medline.csv",
+            "evidence_path": "evidence_files/LLM_optimised_master_validation_titles_and_abstracts_medline.csv",
+            "sha256_file": "evidence_files/LLM_optimised_master_validation_titles_and_abstracts_medline.csv.hash",
+            "ripemd160_file": "evidence_files/LLM_optimised_master_validation_titles_and_abstracts_medline.csv.2ha",
+            "ots_file": "evidence_files/LLM_optimised_master_validation_titles_and_abstracts_medline.csv.hash.ots",
+            "validation_step": "Confirmed real-time file integrity using `HashValidatorBlock.py`. Disk SHA256 and RIPEMD160 match validated against pre-recorded .hash and .2ha files. OpenTimestamps .ots located and confirmed. Canonical validation successful under VALIS v1.0.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "d7f5bd17511ec40abdd70fc7596404deec32a352a715917e465751b186f645f8",
+            "ripemd160": "07b5d0cb25eac463b6927b25cc7c7ba87cd8b211"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

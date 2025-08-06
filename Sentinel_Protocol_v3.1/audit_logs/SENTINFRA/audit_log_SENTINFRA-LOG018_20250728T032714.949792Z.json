@@ -1,0 +1,61 @@
+[
+    {
+        "timestamp": "2025-07-28T03:27:14.949552Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "SENTINFRA-LOG018",
+        "input": {
+            "batch_filenames": [
+                "audit_log_DRTELLES-LOG001_20250713T224621.564735Z.json___20250718T210957.135518Z___20250728T031200.924447Z",
+                "audit_log_MVP1-SR001_20250704T045719.461011Z.json___20250718T210933.038335Z___20250728T031200.934612Z",
+                "audit_log_MVP1-SR002_20250526T005856.448984Z.json___20250718T210959.156847Z___20250728T031200.927224Z",
+                "audit_log_MVP1-SR002_20250704T050511.217387Z.json___20250718T210939.058513Z___20250728T031200.913296Z",
+                "audit_log_MVP1-SR004_20250526T032031.221195Z.json___20250718T210941.070567Z___20250728T031200.947201Z",
+                "audit_log_MVP1-SR005_20250526T034312.228852Z.json___20250718T210949.107401Z___20250728T031200.911523Z",
+                "audit_log_MVP1-SR025_20250614T063132.106059Z.json___20250718T210947.099686Z___20250728T031200.910849Z",
+                "audit_log_MVP1-SR029_20250615T054956.588879Z.json___20250718T211017.207237Z___20250728T031200.929500Z",
+                "audit_log_MVP1-SR030_20250615T233259.294016Z.json___20250718T211001.171852Z___20250728T031200.918158Z",
+                "audit_log_MVP1-SR031_20250616T023206.516729Z.json___20250718T210953.128323Z___20250728T031200.955350Z",
+                "audit_log_MVP1-SR032_20250616T024309.303174Z.json___20250718T210951.118546Z___20250728T031200.934051Z",
+                "audit_log_MVP1-SR033_20250617T070522.437324Z.json___20250718T211007.187922Z___20250728T031200.940587Z",
+                "audit_log_MVP1-SR034_20250617T073007.955006Z.json___20250718T210943.071826Z___20250728T031200.936236Z",
+                "audit_log_MVP1-SR035_20250619T034308.416112Z.json___20250718T210955.130964Z___20250728T031200.951194Z",
+                "audit_log_MVP1-SR036_20250623T041519.661578Z.json___20250718T211015.195366Z___20250728T031200.932847Z",
+                "audit_log_MVP1-SR038_20250623T050153.592411Z.json___20250718T211011.296071Z___20250728T031200.927754Z",
+                "audit_log_MVP1-SR041_20250623T051610.180783Z.json___20250718T210931.035213Z___20250728T031200.918248Z",
+                "audit_log_MVP1-SR047_20250624T061128.502561Z.json___20250718T211005.277064Z___20250728T031200.936983Z",
+                "audit_log_MVP1-SR057_20250701T022809.888350Z.json___20250718T210929.028557Z___20250728T031200.919741Z",
+                "audit_log_MVP1-SR058_20250701T024226.076182Z.json___20250718T210935.045854Z___20250728T031200.936477Z",
+                "audit_log_MVP1-SR076_20250701T224228.412884Z.json___20250718T210927.078737Z___20250728T031200.922134Z",
+                "audit_log_MVP1-SR083_20250704T043256.725227Z.json___20250718T210937.058061Z___20250728T031200.942720Z",
+                "audit_log_MVP1-SR084_20250704T044646.267182Z.json___20250718T210945.080795Z___20250728T031200.916276Z",
+                "session_log_OPTMZ-SESS005_20250709T025037.058926Z.json___20250718T211003.171601Z___20250728T031200.944128Z",
+                "session_log_OPTMZ-SESS009_20250709T053543.889521Z.json___20250718T211013.174519Z___20250728T031200.922227Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "SENTINFRA-SESS002",
+            "batch_screenshot_pre": "BATCH_PRE_20250728T031150Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250728T031225Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS002_batch_evidence_06_AUDIT-EVIDENCE_DRTELLES_ARCHITECT_VALIDATOR_AUDIT_SENTINFRA-SESS002_BATCH-20250718T210927.076084Z, 25 files, delta=35s. folder_dual_hash computed and checked.",
+            "delta_seconds": 35,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS002_batch_evidence_06_AUDIT-EVIDENCE_DRTELLES_ARCHITECT_VALIDATOR_AUDIT_SENTINFRA-SESS002_BATCH-20250718T210927.076084Z",
+            "folder_dual_hash": "4fe1941f98ba14ca5aef32b60153b902562792c5"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july28.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

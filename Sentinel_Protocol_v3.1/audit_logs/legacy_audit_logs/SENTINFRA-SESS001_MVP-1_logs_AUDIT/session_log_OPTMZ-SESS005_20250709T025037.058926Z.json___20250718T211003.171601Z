@@ -1,0 +1,222 @@
+{
+    "session_meta_id": "OPTMZ-SESS005",
+    "timestamp": "20250709T025037.058926Z",
+    "compiled_logs": [
+        {
+            "file": "audit_log_OPTMZ2-SR002_20250709T024354.995694Z.json",
+            "meta_id": "OPTMZ2-SR002",
+            "timestamp": "20250709T024354.995694Z",
+            "entries": [
+                {
+                    "timestamp": "2025-07-09T02:43:54.995636Z",
+                    "event": "TEST_RULE_1_VIOLATION",
+                    "meta_id": "OPTMZ2-SR002",
+                    "input": {
+                        "description": "Missing human_verified flag"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "sha256": "abc123",
+                        "ripemd160": "def456"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": false,
+                        "module_version": "v.july09.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true
+                    }
+                }
+            ],
+            "2ha": null
+        },
+        {
+            "file": "audit_log_OPTMZ2-SR003_20250709T024504.947877Z.json",
+            "meta_id": "OPTMZ2-SR003",
+            "timestamp": "20250709T024504.947877Z",
+            "entries": [
+                {
+                    "timestamp": "2025-07-09T02:45:04.947744Z",
+                    "event": "TEST_RULE_2_VIOLATION",
+                    "meta_id": "OPTMZ2-SR003",
+                    "input": {
+                        "description": "AI override without timestamp"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "sha256": "abc123",
+                        "ripemd160": "def456"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.july09.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": true
+                    },
+                    "timestamp_confirmed": false
+                }
+            ],
+            "2ha": null
+        },
+        {
+            "file": "audit_log_OPTMZ2-SR004_20250709T024603.707907Z.json",
+            "meta_id": "OPTMZ2-SR004",
+            "timestamp": "20250709T024603.707907Z",
+            "entries": [
+                {
+                    "timestamp": "2025-07-09T02:46:03.707811Z",
+                    "event": "TEST_RULE_3_VIOLATION",
+                    "meta_id": "OPTMZ2-SR004",
+                    "input": {
+                        "description": "Output unverifiable"
+                    },
+                    "output": {
+                        "status": "operational",
+                        "verifiable": false,
+                        "sha256": null,
+                        "ripemd160": null
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.july09.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true
+                    }
+                }
+            ],
+            "2ha": null
+        },
+        {
+            "file": "audit_log_OPTMZ2-SR005_20250709T024706.145863Z.json",
+            "meta_id": "OPTMZ2-SR005",
+            "timestamp": "20250709T024706.145863Z",
+            "entries": [
+                {
+                    "timestamp": "2025-07-09T02:47:06.145776Z",
+                    "event": "TEST_RULE_4_VIOLATION",
+                    "meta_id": "OPTMZ2-SR005",
+                    "input": {
+                        "description": "Payload-hash mismatch"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "sha256": "abc123456789",
+                        "ripemd160": "def456",
+                        "payload": "CDA|0011223344...deadbeef"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.july09.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true
+                    }
+                }
+            ],
+            "2ha": null
+        },
+        {
+            "file": "audit_log_OPTMZ2-SR006_20250709T024728.071395Z.json",
+            "meta_id": "OPTMZ2-SR006",
+            "timestamp": "20250709T024728.071395Z",
+            "entries": [
+                {
+                    "timestamp": "2025-07-09T02:47:28.071324Z",
+                    "event": "TEST_RULE_5_VIOLATION",
+                    "meta_id": "OPTMZ2-SR006",
+                    "input": {
+                        "description": "No AI-human agreement flag"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "sha256": "abc123",
+                        "ripemd160": "def456"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.july09.25",
+                        "ai_editor_LLM_human_agreement": false,
+                        "VALIS_template_enforced": true
+                    }
+                }
+            ],
+            "2ha": null
+        },
+        {
+            "file": "audit_log_OPTMZ2-SR007_20250709T024750.348303Z.json",
+            "meta_id": "OPTMZ2-SR007",
+            "timestamp": "20250709T024750.348303Z",
+            "entries": [
+                {
+                    "timestamp": "2025-07-09T02:47:50.348181Z",
+                    "event": "TEST_RULE_6_VIOLATION",
+                    "meta_id": "OPTMZ2-SR007",
+                    "input": {
+                        "description": "VALIS template not enforced"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "sha256": "abc123",
+                        "ripemd160": "def456"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.july09.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": false
+                    }
+                }
+            ],
+            "2ha": null
+        },
+        {
+            "file": "audit_log_OPTMZ2-SR008_20250709T025024.085862Z.json",
+            "meta_id": "OPTMZ2-SR008",
+            "timestamp": "20250709T025024.085862Z",
+            "entries": [
+                {
+                    "timestamp": "2025-07-09T02:50:24.085794Z",
+                    "event": "TEST_AUDITLOGGER_PASS_CME",
+                    "meta_id": "OPTMZ2-SR008",
+                    "input": {
+                        "description": "Operational log with artificial cryptographic anchors for testing only.",
+                        "session_scope": "MVP1_TEST_PASS",
+                        "trigger": "Manual test run"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "sha256": "abc123def456...",
+                        "ripemd160": "7890ghijkl...",
+                        "next_step": "None"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.july09.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true
+                    }
+                }
+            ],
+            "2ha": "256575d1ea749e72d06f851900b33058e8c33e9e"
+        }
+    ]
+}

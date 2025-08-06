@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2025-07-01T03:53:47.547273Z",
+        "event": "EVIDENCE_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR063",
+        "input": {
+            "document_title": "PROSPERO \u2013 Cardiac structure and function in preterm-born adults (IPD Meta-analysis)",
+            "filename": "PROSPERO Cardiac structure and function in preterm-born adults- an individual patient data meta-analysis.pdf",
+            "evidence_path": "evidence_files/PROSPERO Cardiac structure and function in preterm-born adults- an individual patient data meta-analysis.pdf",
+            "sha256_file": "evidence_files/PROSPERO Cardiac structure and function in preterm-born adults- an individual patient data meta-analysis.pdf.hash",
+            "ripemd160_file": "evidence_files/PROSPERO Cardiac structure and function in preterm-born adults- an individual patient data meta-analysis.pdf.2ha",
+            "ots_file": "evidence_files/PROSPERO Cardiac structure and function in preterm-born adults- an individual patient data meta-analysis.pdf.hash.ots",
+            "validation_step": "Validated and hash-locked under `HashValidatorBlock.py` with full cryptographic integrity. The evidence file has been hashed (SHA256), fingerprinted (RIPEMD160), and timestamped using OpenTimestamps. MVP-2.3 hash firewall successfully enforced, metadata permanently registered in Sentinel Protocol."
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "16bef7de122b5c39830e78c040680e7a090f0bb3ef40c8176655bb147adce171",
+            "ripemd160": "463f5f6be7871b32d2b5eaa7edb32dedcd033ee6"
+        },
+        "audit": {
+            "AI_used": false,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

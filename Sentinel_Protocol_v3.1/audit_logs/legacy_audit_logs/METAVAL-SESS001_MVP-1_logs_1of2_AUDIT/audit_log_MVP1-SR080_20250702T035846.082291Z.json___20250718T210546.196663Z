@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-02T03:58:46.082083Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR080",
+        "input": {
+            "document_title": "MVP-2.5 | CSV Integrity Verification \u2013 Master vs Split Audit",
+            "filename": "HumanAudit_Master_and_Split_CSV_Integrity_Check.md",
+            "evidence_path": "evidence_files/HumanAudit_Master_and_Split_CSV_Integrity_Check.md",
+            "sha256_file": "evidence_files/HumanAudit_Master_and_Split_CSV_Integrity_Check.md.hash",
+            "ripemd160_file": "evidence_files/HumanAudit_Master_and_Split_CSV_Integrity_Check.md.2ha",
+            "ots_file": "evidence_files/HumanAudit_Master_and_Split_CSV_Integrity_Check.md.hash.ots",
+            "validation_step": "Validated under `HashValidatorBlock.py` with strict audit enforcement.\nDisk SHA256 and RIPEMD160 matched `.hash` and `.2ha` files respectively.\nOpenTimestamps `.ots` file confirmed and present.\nAudit conducted under VALIS v1.0 protocol.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "fccc201b76aa39a4e84b8b5dc64cf06cb4d9fa9a1a8484d539ae98c861069f34",
+            "ripemd160": "a74a790cbc7a63e9dd02fa0a79756ee6c8eb5bd7"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1, LLM2",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

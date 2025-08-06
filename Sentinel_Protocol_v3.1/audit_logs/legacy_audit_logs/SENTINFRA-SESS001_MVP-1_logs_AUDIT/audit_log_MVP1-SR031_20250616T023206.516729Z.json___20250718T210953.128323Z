@@ -1,0 +1,25 @@
+[
+    {
+        "timestamp": "2025-06-16T02:32:06.516693Z",
+        "event": "MVP2.5_DUAL_HASH_TEST_SESSION",
+        "meta_id": "MVP1-SR031",
+        "input": {
+            "command": "Trigger dual-hash audit execution using updated AuditLogger",
+            "stack_engaged": "Sentinel Protocol v3.0",
+            "session_scope": "MVP-2.5 audit infrastructure validation",
+            "execution_mode": "ABSOLUTE MODE",
+            "memory_stack": "C0\u2013C11 + MVP-01_Auditability_And_Provenance",
+            "description": "This log triggers full .json, .hash, and .2ha dual-hash output as per 2HA integration. First run of RIPEMD160 atop SHA256 in full pipeline."
+        },
+        "output": {
+            "status": "PASS if .2ha file appears in /logs alongside .json and .hash",
+            "next_step": "Link output hash to OP_RETURN anchor or append to ordinal manifest"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0"
+        }
+    }
+]

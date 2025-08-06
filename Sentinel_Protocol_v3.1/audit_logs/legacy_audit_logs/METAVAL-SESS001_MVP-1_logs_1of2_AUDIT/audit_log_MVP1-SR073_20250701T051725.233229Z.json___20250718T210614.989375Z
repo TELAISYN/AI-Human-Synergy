@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-01T05:17:25.233024Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR073",
+        "input": {
+            "document_title": "MVP-2.5 | DeepAudit \u2013 CSV001 LLM3 vs LLM4 Titles & Abstracts (Combined)",
+            "filename": "DeepAudit_CSV001_HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv",
+            "evidence_path": "evidence_files/DeepAudit_CSV001_HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv",
+            "sha256_file": "evidence_files/DeepAudit_CSV001_HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv.hash",
+            "ripemd160_file": "evidence_files/DeepAudit_CSV001_HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv.2ha",
+            "ots_file": "evidence_files/DeepAudit_CSV001_HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv.hash.ots",
+            "validation_step": "Hash validated live under `HashValidatorBlock.py`. Disk content confirmed SHA256 + RIPEMD160 match with saved `.hash` and `.2ha`. OTS timestamp file present. Canonical VALIS protocol v1.0 applied.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "157e3f62b2c46cb7a8b0dcd43abd75e18d3a6ce1e056c59b5c57e0f6af1dcd10",
+            "ripemd160": "6e04dd421b44c44a51d0ce21797a20a08601ffa7"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

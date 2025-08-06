@@ -1,0 +1,37 @@
+[
+    {
+        "timestamp": "2025-07-28T05:21:24.049649Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "METAVAL-LOG012",
+        "input": {
+            "batch_filenames": [
+                "METAVAL-SESS1_Sentinel Protocol v3.1 \u2013 Meta-Analysis Evidence Validation Audit Log.md___20250728T051601.390854Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "METAVAL-SESS001",
+            "batch_screenshot_pre": "BATCH_PRE_20250728T051511Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250728T051617Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS001_batch_evidence12_METAVAL-SESS1_Pre-Independent_AUDIT_Evidence, 1 files, delta=66s. folder_dual_hash computed and checked.",
+            "delta_seconds": 66,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "METAVAL-LOG-METAVAL-SESS001_batch_evidence12_METAVAL-SESS1_Pre-Independent_AUDIT_Evidence",
+            "folder_dual_hash": "32f16aa7ed5c51579ad4079039fcf62a69cd4555"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july28.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

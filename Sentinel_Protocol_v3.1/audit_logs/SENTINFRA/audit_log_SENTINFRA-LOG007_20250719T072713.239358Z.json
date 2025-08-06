@@ -1,0 +1,67 @@
+[
+    {
+        "timestamp": "2025-07-19T07:27:13.239034Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "SENTINFRA-LOG007",
+        "input": {
+            "batch_filenames": [
+                " batch_dualhasher_multi.py___20250719T071425.789775Z",
+                ".DS_Store___20250719T071425.750574Z",
+                "4-Tier_Human<>Multi-LLM_Agreement_System.md___20250719T071425.777403Z",
+                "CSV_to_MD_integrity_Validator.py___20250719T071425.768500Z",
+                "Formulas_Human<>LLM3<>LLM4_AUDIT_titles_and_abstracts_Template.xlsx___20250719T071425.768836Z",
+                "Meta-Analysis Filename_Parser_Excel_Code_Sheet.md___20250719T071425.784976Z",
+                "auditlogger.py___20250719T071427.406536Z",
+                "batch_csv_to_md_converted.py___20250719T071425.753640Z",
+                "batch_dualhasher.py___20250719T071425.788417Z",
+                "batch_ots_upgrader.py___20250719T071425.779315Z",
+                "canonical_auditlogger_terminal_template.py___20250719T071427.406479Z",
+                "compile_md_to_csv.py___20250719T071425.769743Z",
+                "compliance_enforcer.py___20250719T071427.407614Z",
+                "csv_diagnostic_checker.py___20250719T071425.772533Z",
+                "csv_splitter.py___20250719T071425.780528Z",
+                "csv_to_pdf_batch_converter.py___20250719T071425.747826Z",
+                "extract_hashes.py___20250719T071425.755619Z",
+                "filenamechange.py___20250719T071425.758243Z",
+                "foldername_tofilename.py___20250719T071425.750246Z",
+                "generate_LLM3_prompts.py___20250719T071425.770733Z",
+                "hashvalidatorblock.py___20250719T071425.753262Z",
+                "md_to_pdf.py___20250719T071425.774028Z",
+                "opreturnanchor.py___20250719T071425.775486Z",
+                "run_all_funnel_batch.R___20250719T071425.759655Z",
+                "run_all_meta_batch_DL.R___20250719T071425.751109Z",
+                "run_all_meta_batch_REML.R___20250719T071425.782425Z",
+                "session_logger.py___20250719T071425.762489Z",
+                "split_csv_by_group.py___20250719T071425.784381Z",
+                "valis_auditlogger_template.py___20250719T071427.406449Z",
+                "valis_batchauditlogger_template.py___20250719T071425.770365Z",
+                "valis_batchnameverifier.py___20250719T071425.758290Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "SENTINFRA-SESS001",
+            "batch_screenshot_pre": "BATCH_PRE_20250719T071154Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250719T071509Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS001_batch_evidence_07_SentinelCodes_v3.1, 31 files, delta=195s. folder_dual_hash computed and checked.",
+            "delta_seconds": 195,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS001_batch_evidence_07_SentinelCodes_v3.1",
+            "folder_dual_hash": "a13da20c10e45d2249462acc09fb6adcf9203502"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july19.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

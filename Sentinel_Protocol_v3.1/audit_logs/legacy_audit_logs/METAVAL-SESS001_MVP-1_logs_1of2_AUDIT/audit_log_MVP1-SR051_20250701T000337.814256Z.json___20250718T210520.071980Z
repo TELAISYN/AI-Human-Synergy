@@ -1,0 +1,33 @@
+[
+    {
+        "timestamp": "2025-07-01T00:03:37.814085Z",
+        "event": "MVP2_EVIDENCE_IMMUTABLE_AUDIT_FILE_CONFIRMED",
+        "meta_id": "MVP1-SR051",
+        "input": {
+            "document_title": "PICO Builder Step 10 \u2013 Final Manual Audit Override",
+            "filename": "PICO_Builder_Step10_HumanExpert_FinalAudit_ManualOverride.md",
+            "entity": "MVP-2 Thread",
+            "mvp_range": "MVP 2.1\u20132.4",
+            "evidence_purpose": "Make prior audit files immutable and timestamped before MVP-2.5 publication",
+            "evidence_path": "evidence_files/PICO_Builder_Step10_HumanExpert_FinalAudit_ManualOverride.md",
+            "sha256_file": "evidence_files/PICO_Builder_Step10_HumanExpert_FinalAudit_ManualOverride.md.hash",
+            "ripemd160_file": "evidence_files/PICO_Builder_Step10_HumanExpert_FinalAudit_ManualOverride.md.2ha",
+            "ots_file": "evidence_files/PICO_Builder_Step10_HumanExpert_FinalAudit_ManualOverride.md.hash.ots",
+            "validation_step": "Audit file confirmed as final version used in MVP 2.1\u20132.4. Shared with LLM1 at time of review. This file has now been cryptographically hashed and timestamped using SHA256, RIPEMD160, and OpenTimestamps. Confirmed immutable. Completes integrity trace for publication."
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "bc7f68d15e4282f73e8d767298b69e675370d664",
+            "ripemd160": "2bb0f70f638d592f3a050584b2342a9b0d3e486a24e9a7e39daea8a0b00e9ed9"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

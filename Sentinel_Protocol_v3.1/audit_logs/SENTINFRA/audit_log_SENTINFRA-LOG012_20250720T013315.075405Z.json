@@ -1,0 +1,33 @@
+[
+    {
+        "timestamp": "2025-07-20T01:33:15.075007Z",
+        "event": "ANCHOR_OP_RETURN_REGISTERED",
+        "meta_id": "SENTINFRA-LOG012",
+        "input": {
+            "session_context": "SENTINFRA-SESS001",
+            "txid": "152bce9a7d9c2decc8641ce8cd30ae07f5b02adcb4e38bbedbee5f00a14e69a1",
+            "block_height": 906220,
+            "meta_id": "SENTINFRA-SESS001",
+            "op_return_payload": "SENTINFRA-SESS001 | 714a8429313004b0ff2fd5069f23702bbb0c9fe1",
+            "validation_step": "Session log `.2ha` verified by OP_RETURN on-chain anchor. Transaction confirmed in block 906220. TXID embedded via decoded OP_RETURN payload. Session reproducibility preserved and timestamp confirmed.",
+            "timestamp_registered": "2025-07-20T01:33:15.075000Z"
+        },
+        "output": {
+            "status": "anchored",
+            "anchored": true,
+            "txid": "152bce9a7d9c2decc8641ce8cd30ae07f5b02adcb4e38bbedbee5f00a14e69a1",
+            "block": 906220,
+            "op_return_payload": "SENTINFRA-SESS001 | 714a8429313004b0ff2fd5069f23702bbb0c9fe1"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july20.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

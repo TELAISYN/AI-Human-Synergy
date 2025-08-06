@@ -1,0 +1,12 @@
+{
+    "meta_id": "TFT-SESS001",
+    "timestamp": "2025-06-26T05:13:45.868482Z",
+    "sha256": "f515be116d981ea6f31aa2bbdf1b412402799d7156d599e7de64b8beb64e483a",
+    "ripemd160": "c440d809b10268ee873ff7cfac99135100526c22",
+    "op_return": {
+        "txid": "85113172ea9a6889d671f99430533ac5cc4d840dc7cde4b84cbebf9f8a4c51d4",
+        "payload": "TFT|TFT-SESS001|c440d809b10268ee873ff7cfac99135100526c22",
+        "block_height": 902751
+    },
+    "ordinal": null
+}

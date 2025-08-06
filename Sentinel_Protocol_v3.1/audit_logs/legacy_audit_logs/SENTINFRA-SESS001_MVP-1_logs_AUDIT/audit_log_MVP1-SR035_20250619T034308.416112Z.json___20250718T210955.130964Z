@@ -1,0 +1,42 @@
+[
+    {
+        "timestamp": "2025-06-19T03:43:08.415969Z",
+        "event": "PATENT_PROVISIONAL_FILED_DUAL_JURISDICTION",
+        "meta_id": "MVP1-SR035",
+        "input": {
+            "command": "Execute self-filed provisional patents in AU and US",
+            "jurisdictions": [
+                "Australia",
+                "United States"
+            ],
+            "AU_application_number": "2025902482",
+            "US_application_number": "63/826,381",
+            "priority_date": "17 June 2025",
+            "filing_dates": {
+                "AU": "17 June 2025",
+                "US": "19 June 2025"
+            },
+            "ownership": "Telles Investments Pty Ltd",
+            "inventor": "Dr. Fernando Telles",
+            "title": "System and Method for Mandatory Human-Supervised AI-Human Synergy\u2122 Audit Logging Using Multi-Layer Blockchain Anchoring, Cryptographic Chain Validation, and Real-Time Ethics Enforcement",
+            "description": "Milestone logs the global patent pending activation of Sentinel Protocol\u2019s audit engine under AI-Human Synergy governance. AU and US provisional filings were completed without legal representation, securing CDA AI's technical claims under open timestamp and dual-hash audit validation logic.",
+            "documents_logged": [
+                "Patent_Filing_Record_SentinelProtocol.md",
+                "IP Australia Filing Receipt \u2013 AMCZ-2514625185.pdf",
+                "2025902482-Provisional Patent Application Filing Receipt.pdf",
+                "N417.pdf",
+                "N417.PYMT.pdf"
+            ]
+        },
+        "output": {
+            "status": "Patent Pending status active in AU and US. Global disclosure now protected.",
+            "next_step": "OP_Return and Ordinal inspription meta-seal and PCT planning window (within 12 months)."
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1 and LLM4",
+            "human_verified": true,
+            "module_version": "v1.0.0"
+        }
+    }
+]

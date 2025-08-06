@@ -1,0 +1,41 @@
+{
+    "session_meta_id": "OPTMZ-SESS009",
+    "timestamp": "20250709T053543.889521Z",
+    "compiled_logs": [
+        {
+            "file": "audit_log_OPTMZ2-SR009_20250709T053527.591402Z.json",
+            "meta_id": "OPTMZ2-SR009",
+            "timestamp": "20250709T053527.591402Z",
+            "entries": [
+                {
+                    "timestamp": "2025-07-09T05:35:27.591327Z",
+                    "event": "TEST_AUDITLOGGER_PASS_CME",
+                    "meta_id": "OPTMZ2-SR009",
+                    "input": {
+                        "description": "Operational log with artificial cryptographic anchors for testing only.",
+                        "session_scope": "MVP1_TEST_PASS",
+                        "trigger": "Manual test run"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "sha256": "abc123def456...",
+                        "ripemd160": "7890ghijkl...",
+                        "next_step": "None"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.july09.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true
+                    }
+                }
+            ],
+            "sha256": "43411974bcf5b73f18d68df3e31a3d278f86aaf5ecf00a4fc8959e8248e108d3",
+            "2ha": "10e5ce497fccc48654e8611f5570c67cd28e2bcc",
+            "ots_file": "audit_log_OPTMZ2-SR009_20250709T053527.591402Z.hash.ots"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2025-07-01T04:46:48.652738Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR067",
+        "input": {
+            "document_title": "MVP-2.4 | Step 8 \u2013 BNP Final Search Execution Audit (Human Verified)",
+            "filename": "SearchString_Optimisation_Medline_Step8_BNPSeachExecuted_Audit.md",
+            "evidence_path": "evidence_files/SearchString_Optimisation_Medline_Step8_BNPSeachExecuted_Audit.md",
+            "sha256_file": "evidence_files/SearchString_Optimisation_Medline_Step8_BNPSeachExecuted_Audit.md.hash",
+            "ripemd160_file": "evidence_files/SearchString_Optimisation_Medline_Step8_BNPSeachExecuted_Audit.md.2ha",
+            "ots_file": "evidence_files/SearchString_Optimisation_Medline_Step8_BNPSeachExecuted_Audit.md.hash.ots",
+            "validation_step": "Validated using `HashValidatorBlock.py` under VALIS protocol. Confirmed disk hash matches `.hash` + `.2ha` files. OTS timestamp found. MVP-2.4 hash firewall active."
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "b3e9ab31efe3ef893caa931c2760e16b8dc4b79c7221f4736254316b31cbb42c",
+            "ripemd160": "01e673e424c415b94971c0a87138767cd83f83d7"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

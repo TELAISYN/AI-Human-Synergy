@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2025-07-01T00:38:01.775760Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR056",
+        "input": {
+            "document_title": "Inclusion Criteria Optimisation Step 3.0 \u2013 Pre-Syntax Audit (MVP2.2)",
+            "filename": "InclusionCriteria_Optimisation_Step3.0PreSyntaxOptimisation_HumanExpertAudit.md",
+            "evidence_path": "evidence_files/InclusionCriteria_Optimisation_Step3.0PreSyntaxOptimisation_HumanExpertAudit.md",
+            "sha256_file": "evidence_files/InclusionCriteria_Optimisation_Step3.0PreSyntaxOptimisation_HumanExpertAudit.md.hash",
+            "ripemd160_file": "evidence_files/InclusionCriteria_Optimisation_Step3.0PreSyntaxOptimisation_HumanExpertAudit.md.2ha",
+            "ots_file": "evidence_files/InclusionCriteria_Optimisation_Step3.0PreSyntaxOptimisation_HumanExpertAudit.md.hash.ots",
+            "validation_step": "File contains previously executed audit logic from MVP2.2. Evidence was disclosed and confirmed with LLM1. Cryptographic hash functions (SHA256 + RIPEMD160) were applied. The resulting digest was timestamped using OpenTimestamps (OTS), making this file tamper-evident and verifiably immutable as of today. Registered under: 'MVP-2 scientific reproducibility assurance protocol.'"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "5d2e3534dc5511ab4499c2281f8803c31cbdeeafa89838b9b112c7a3d0a5c922",
+            "ripemd160": "5cba15a55b2353bcaca06632125dd4b565599e6a"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

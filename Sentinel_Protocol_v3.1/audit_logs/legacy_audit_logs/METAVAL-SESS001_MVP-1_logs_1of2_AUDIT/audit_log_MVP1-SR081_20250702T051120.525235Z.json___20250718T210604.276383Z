@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-02T05:11:20.525020Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR081",
+        "input": {
+            "document_title": "MVP-2.5 | CSV\u2013to\u2013Markdown Conversion Integrity Audit",
+            "filename": "HumanAudit_CSVtoMDconversion_Integrity_Check.md",
+            "evidence_path": "evidence_files/HumanAudit_CSVtoMDconversion_Integrity_Check.md",
+            "sha256_file": "evidence_files/HumanAudit_CSVtoMDconversion_Integrity_Check.md.hash",
+            "ripemd160_file": "evidence_files/HumanAudit_CSVtoMDconversion_Integrity_Check.md.2ha",
+            "ots_file": "evidence_files/HumanAudit_CSVtoMDconversion_Integrity_Check.md.hash.ots",
+            "validation_step": "Validated under `HashValidatorBlock.py` with strict audit enforcement.\nDisk SHA256 and RIPEMD160 matched `.hash` and `.2ha` files respectively.\nOpenTimestamps `.ots` file confirmed and present.\nAudit conducted under VALIS v1.0 protocol.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "5a675195fa45835f635778d4be49377104eb6789e7c7c79a3979907a6e77654b",
+            "ripemd160": "961dba6bf228e42cb3e748057e005dfa81f435b9"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

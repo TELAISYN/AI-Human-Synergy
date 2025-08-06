@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-01T05:10:13.388407Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR070",
+        "input": {
+            "document_title": "MVP-2.5 | Screening File \u2013 Included Records",
+            "filename": "Included_Records.txt",
+            "evidence_path": "evidence_files/Included_Records.txt",
+            "sha256_file": "evidence_files/Included_Records.txt.hash",
+            "ripemd160_file": "evidence_files/Included_Records.txt.2ha",
+            "ots_file": "evidence_files/Included_Records.txt.hash.ots",
+            "validation_step": "Validated under `HashValidatorBlock.py` using real-time firewall. Disk hash verified against `.hash` and `.2ha` with OpenTimestamps proof present. Execution adheres to `VALIS_Template_Canonical_v1.py`.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "3330065dd80b161d1084e0160a3bea94c5b4cd030ffbba1d49f94a69b772080a",
+            "ripemd160": "4f5d90c2f7c97955dc9dc01e17801e0feef17905"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

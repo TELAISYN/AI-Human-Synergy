@@ -1,0 +1,41 @@
+[
+    {
+        "timestamp": "2025-07-25T03:32:34.501463Z",
+        "event": "VALIDATOR_REPRODUCIBILITY_PASS",
+        "meta_id": "SENTINFRA-SESS002",
+        "input": {
+            "document_title": "Engineer Validator Reproducibility Pass \u2013 PreDeployment",
+            "filename": "Screenshot 2025-07-25 at 1.07.52\u202fpm.png___20250725T032248.358543Z",
+            "evidence_path": "evidence_files/Screenshot 2025-07-25 at 1.07.52\u202fpm.png___20250725T032248.358543Z",
+            "sha256_file": "evidence_files/Screenshot 2025-07-25 at 1.07.52\u202fpm.png___20250725T032248.358543Z.hash",
+            "ripemd160_file": "evidence_files/Screenshot 2025-07-25 at 1.07.52\u202fpm.png___20250725T032248.358543Z.2ha",
+            "ots_file": "evidence_files/Screenshot 2025-07-25 at 1.07.52\u202fpm.png___20250725T032248.358543Z.hash.ots",
+            "validator_id": "ENGHOOKEY-VAL001",
+            "payload": "ENGHOOKEY-VAL001|PASS|SENTINFRA-SESS001|cc4652bfc2ffb00d81982ddff11a704204fe8c15",
+            "txid": "a5622ac48c93017215a7fb7af6a69bb965220bb3a86e798e721d1f548033a5e3",
+            "block_height": 907041,
+            "session_meta_id": "SENTINFRA-SESS002",
+            "validation_step": "Validator ENGHOOKEY-VAL001 confirms successful reproducibility audit. File was dual-hashed and OTS-stamped. Anchor committed to Bitcoin with confirmed payload. Compliant under C5.7, C8.3, and C9.5."
+        },
+        "output": {
+            "status": "pass",
+            "validator_id": "ENGHOOKEY-VAL001",
+            "txid": "a5622ac48c93017215a7fb7af6a69bb965220bb3a86e798e721d1f548033a5e3",
+            "block": 907041,
+            "payload": "ENGHOOKEY-VAL001|PASS|SENTINFRA-SESS001|cc4652bfc2ffb00d81982ddff11a704204fe8c15",
+            "verifiable": true,
+            "sha256": "f84e96aa1e1b4a58cb9b6cbb79e5e65280e799d250c9b95f755e9a5be859e3e0",
+            "ripemd160": "a72f60e7e129df6a8a4a898ffdffe8ef86a1a56a"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july25.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

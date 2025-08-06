@@ -1,0 +1,12 @@
+{
+    "meta_id": "CDA-SESS001",
+    "timestamp": "2025-06-26T04:57:05.654740Z",
+    "sha256": "c72181122e9e810aefd5991095ec08ba0e42d28c39f3f6bf976f0b48d1a27fac",
+    "ripemd160": "a2809af62ce1a02b0769245bd744af98606b4c7d",
+    "op_return": {
+        "txid": "f4fd6f9848a3c3b3c96c2d5015b61d0d463e2532ae23b49430e5fe6c9c6dc95c",
+        "payload": "CDA|CDA-SESS001|a2809af62ce1a02b0769245bd744af98606b4c7d",
+        "block_height": 902751
+    },
+    "ordinal": null
+}

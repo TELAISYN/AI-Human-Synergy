@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2025-07-01T00:25:54.568417Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_REHASH_CONFLICT",
+        "meta_id": "MVP1-SR054",
+        "input": {
+            "document_title": "Audit \u2013 Human Identified Absolute Fields for Protocol (MVP2.2)",
+            "filename": "Audit_human identified absolute fields for protocol.md",
+            "evidence_path": "evidence_files/Audit_human identified absolute fields for protocol.md",
+            "sha256_file": "evidence_files/Audit_human identified absolute fields for protocol.md.hash",
+            "ripemd160_file": "evidence_files/Audit_human identified absolute fields for protocol.md.2ha",
+            "ots_file": "evidence_files/Audit_human identified absolute fields for protocol.md.hash.ots",
+            "validation_step": "Original file was successfully timestamped and anchored using SHA256 + RIPEMD160.\nHowever, due to human error, the file was rehashed multiple times, causing mismatch between\ncurrent `.hash` / `.2ha` and the original `.hash.ots`.\n\nThe `.hash.ots` file remains unaltered and is the source of truth.\n**This entry registers a canonical exception for scientific reproducibility audit.**"
+        },
+        "output": {
+            "status": "verifiable (with caveat)",
+            "verifiable": true,
+            "sha256": "f30ff382ba8c38356ff48c24cdaa7642e5f3f89717b871cafade2058e32d84be",
+            "ripemd160": "50c0b2075c1c8d5071af9c07b0fc9b7a7f7b47f2"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

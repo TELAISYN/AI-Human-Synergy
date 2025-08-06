@@ -1,0 +1,53 @@
+[
+    {
+        "timestamp": "2025-07-01T03:31:31.535938Z",
+        "event": "HASH_METADATA_CORRECTION_LOGGED",
+        "meta_id": "MVP1-SR060",
+        "input": {
+            "document_title": "Corrected SHA256 and RIPEMD160 Metadata Log",
+            "source_correction_file": "Human Audit - correction of `sha256` and `ripemd160` post implementation of real-time firewall under new script `HashValidatorBlock.py`.md",
+            "validated_under": "HashValidatorBlock.py (2025-07-01 canonical release)",
+            "corrections": [
+                {
+                    "meta_id": "MVP1-SR048",
+                    "filename": "PICO_Builder_Step1_HumanVagueQuestion.md",
+                    "sha256_corrected": "903660b7088bd2a8b760c6150dade4d5dbd4ae05be31f270c1afffa73c4437c6",
+                    "ripemd160_corrected": "f8389aa2f3a1d08c6169fef65b498469b18c6719"
+                },
+                {
+                    "meta_id": "MVP1-SR050",
+                    "filename": "PICO_Builder_Step7_HumanExpertAUDIT.md",
+                    "sha256_corrected": "da9133dd6db9747ac277b0492f640d53938d8d197867c8ae5e74f973110dd402",
+                    "ripemd160_corrected": "d58ccb010639a7be1fa4ccd5a9ab5cbe2fb786ea"
+                },
+                {
+                    "meta_id": "MVP1-SR053",
+                    "filename": "Audit_human identified duplicate.md",
+                    "sha256_corrected": "459ead67f6a1c93c32c098271301053b1708c26a42792074adda1f2b611d1c1a",
+                    "ripemd160_corrected": "33e11d7e50bc70a38785ddaf0992cf64c24763a8"
+                },
+                {
+                    "meta_id": "MVP1-SR055",
+                    "filename": "InclusionCriteria_Optimisation_Step3_HumanExpertAudit.md",
+                    "sha256_corrected": "161c72cce36b46bfd0980b15de81788b5301076e24956295e6cfe2b5976e6853",
+                    "ripemd160_corrected": "533329cf4314d0108b4fb7b23d9ed11f204a3783"
+                }
+            ],
+            "validation_step": "This metadata audit logs corrected SHA256 and RIPEMD160 values for previously mismatched files recorded during MVP2.1 and MVP2.2 audit logging. Corrections are sourced from `Human Audit - correction of `sha256` and `ripemd160` post implementation of real-time firewall under new script `HashValidatorBlock.py`.md`, which was successfully validated under `HashValidatorBlock.py` and timestamped with OpenTimestamps. All entries are now CEM-compliant and hash-locked."
+        },
+        "output": {
+            "status": "corrected",
+            "verifiable": true,
+            "sha256_source": "32d6607e57b7128c6b3d62b1398b2348dd62020b20f6ab6d4ec118d0283c04a1",
+            "ripemd160_source": "bda20b32a35b58776afa8e34f2dcbc56e115e6f2"
+        },
+        "audit": {
+            "AI_used": false,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

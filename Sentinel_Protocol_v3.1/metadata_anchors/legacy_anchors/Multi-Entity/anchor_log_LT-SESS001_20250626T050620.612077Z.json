@@ -1,0 +1,12 @@
+{
+    "meta_id": "LT-SESS001",
+    "timestamp": "2025-06-26T05:06:20.611843Z",
+    "sha256": "b6e6113ae7c4e81285d144e54b6e2ba2cd3712a9e8b830f6d2b2208236618306",
+    "ripemd160": "4b7f7bd576a0bdba79f7d07cf0f7cf72090f6747",
+    "op_return": {
+        "txid": "0abad30819cf057751d806efe1fd93bb5bc762e8cc1890876f09bc65626a9800",
+        "payload": "LT|LT-SESS001|4b7f7bd576a0bdba79f7d07cf0f7cf72090f6747",
+        "block_height": 902751
+    },
+    "ordinal": null
+}

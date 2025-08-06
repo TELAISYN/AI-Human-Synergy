@@ -1,0 +1,52 @@
+[
+    {
+        "timestamp": "2025-07-19T07:27:53.022753Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "SENTINFRA-LOG009",
+        "input": {
+            "batch_filenames": [
+                ".DS_Store___20250719T071432.062249Z",
+                "ADD JACC CVI REVIEWER ROLE.pdf___20250719T071432.072338Z",
+                "C5.7_CredentialAudit_Doctrine_v1.0.md___20250719T071432.062106Z",
+                "DeepAudit_CSV001_HumanAudit_LLM3LLM4_titles_and_abstracts_001_Combined.csv___20250719T071432.075327Z",
+                "Final_Figures_supplement.pptx___20250719T071432.068577Z",
+                "Final_Tables.xlsx___20250719T071432.064743Z",
+                "Final_TelleMA_manuscript_word.docx___20250719T071432.081123Z",
+                "Screenshot 2025-07-11 at 10.41.03\u202fam.png___20250719T071432.066609Z",
+                "anchor_log_MVP1-SR033_20250620T012012.872478Z.json___20250719T071432.066371Z",
+                "audit_log_OPTMZ2-SR001_20250709T023343.365390Z.json___20250719T071432.075588Z",
+                "audit_log_OPTMZ2-SR008_20250709T025024.085862Z.json___20250719T071432.065085Z",
+                "audit_log_OPTMZ2-SR009_20250709T053527.591402Z.json___20250719T071432.076576Z",
+                "batch_dualhasher.py___20250719T071432.079360Z",
+                "session_log_OPTMZ-SESS001_20250709T023626.543281Z.json___20250719T071432.075846Z",
+                "session_log_OPTMZ-SESS005_20250709T025037.058926Z.json___20250719T071432.076285Z",
+                "session_log_OPTMZ-SESS009_20250709T053543.889521Z.json___20250719T071432.081343Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "SENTINFRA-SESS001",
+            "batch_screenshot_pre": "BATCH_PRE_20250719T071154Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250719T071509Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS001_batch_evidence_08-Evidence, 16 files, delta=195s. folder_dual_hash computed and checked.",
+            "delta_seconds": 195,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS001_batch_evidence_08-Evidence",
+            "folder_dual_hash": "35d3d37ea778e481ac863f867dbc1cce4c6e99b2"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july19.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-01T04:56:17.873128Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR069",
+        "input": {
+            "document_title": "MVP-2.4 | BNP Screenshot \u2013 Step 8 Exclusion Confirmation",
+            "filename": "BNP exclusion_Screenshot 2025-06-24 at 11.22.43\u202fam.png",
+            "evidence_path": "evidence_files/BNP exclusion_Screenshot 2025-06-24 at 11.22.43\u202fam.png",
+            "sha256_file": "evidence_files/BNP exclusion_Screenshot 2025-06-24 at 11.22.43\u202fam.png.hash",
+            "ripemd160_file": "evidence_files/BNP exclusion_Screenshot 2025-06-24 at 11.22.43\u202fam.png.2ha",
+            "ots_file": "evidence_files/BNP exclusion_Screenshot 2025-06-24 at 11.22.43\u202fam.png.hash.ots",
+            "validation_step": "Hash integrity validated using `HashValidatorBlock.py` with disk comparison. OTS file present and matches expected hash. VALIS Template v1.0 applied with hash-lock compliance.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "b6436706718753ee8a437b488212bb56a5fb4084e23c914be52a24dd5070ca33",
+            "ripemd160": "7432d432a34cf65011f6ea04ab2f4c472e08bd57"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

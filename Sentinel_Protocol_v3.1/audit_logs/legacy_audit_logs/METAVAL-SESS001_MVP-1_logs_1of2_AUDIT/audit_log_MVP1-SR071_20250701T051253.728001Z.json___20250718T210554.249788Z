@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-01T05:12:53.727867Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR071",
+        "input": {
+            "document_title": "MVP-2.5 | CSV: Human + LLM Titles & Abstracts Evidence (Pilot)",
+            "filename": "titles_and_abstracts_001.csv",
+            "evidence_path": "evidence_files/titles_and_abstracts_001.csv",
+            "sha256_file": "evidence_files/titles_and_abstracts_001.csv.hash",
+            "ripemd160_file": "evidence_files/titles_and_abstracts_001.csv.2ha",
+            "ots_file": "evidence_files/titles_and_abstracts_001.csv.hash.ots",
+            "validation_step": "Validated with `HashValidatorBlock.py` as per VALIS v1.0. Disk hash matched all immutability artifacts. OTS anchor confirmed present. Audit entry fully compliant with CEM-2.5 hash firewall conditions.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "b2b5f6bc8fdec99d35f176f74158d23c4e62afd39c63df8a457ad9ae1e96d66d",
+            "ripemd160": "4ca4a263eb1e822daec247b8e0498f2197fde1ed"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

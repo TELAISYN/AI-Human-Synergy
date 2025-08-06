@@ -1,0 +1,41 @@
+[
+    {
+        "timestamp": "2025-07-21T03:33:47.026852Z",
+        "event": "VALIDATOR_REPRODUCIBILITY_PASS",
+        "meta_id": "SENTINFRA-SESS002",
+        "input": {
+            "document_title": "Architect Validator Reproducibility Pass \u2013 PreDeployment",
+            "filename": "AUDIT-EVIDENCE_DRTELLES-VAL_REPRODUCIBILITY_SENTINFRA_PreDeployment_sha256_ripemd160_v.july19.25.md___20250719T071434.488304Z",
+            "evidence_path": "evidence_files/AUDIT-EVIDENCE_DRTELLES-VAL_REPRODUCIBILITY_SENTINFRA_PreDeployment_sha256_ripemd160_v.july19.25.md___20250719T071434.488304Z",
+            "sha256_file": "evidence_files/AUDIT-EVIDENCE_DRTELLES-VAL_REPRODUCIBILITY_SENTINFRA_PreDeployment_sha256_ripemd160_v.july19.25.md___20250719T071434.488304Z.hash",
+            "ripemd160_file": "evidence_files/AUDIT-EVIDENCE_DRTELLES-VAL_REPRODUCIBILITY_SENTINFRA_PreDeployment_sha256_ripemd160_v.july19.25.md___20250719T071434.488304Z.2ha",
+            "ots_file": "evidence_files/AUDIT-EVIDENCE_DRTELLES-VAL_REPRODUCIBILITY_SENTINFRA_PreDeployment_sha256_ripemd160_v.july19.25.md___20250719T071434.488304Z.hash.ots",
+            "validator_id": "DRTELLES-VAL001",
+            "payload": "DRTELLES-VAL001|PASS|SENTINFRA-SESS001|05cea9a984e521547de3a405b79fd93c769424fe",
+            "txid": "ccf9dc6dde2136b5e2adf035532233cfee255fb3704f8f5838b0de730f41eca0",
+            "block_height": 906434,
+            "session_meta_id": "SENTINFRA-SESS002",
+            "validation_step": "Validator DRTELLES-VAL001 confirms successful reproducibility audit. File was dual-hashed and OTS-stamped. Anchor committed to Bitcoin with confirmed payload. Compliant under C5.7, C8.3, and C9.5."
+        },
+        "output": {
+            "status": "pass",
+            "validator_id": "DRTELLES-VAL001",
+            "txid": "ccf9dc6dde2136b5e2adf035532233cfee255fb3704f8f5838b0de730f41eca0",
+            "block": 906434,
+            "payload": "DRTELLES-VAL001|PASS|SENTINFRA-SESS001|05cea9a984e521547de3a405b79fd93c769424fe",
+            "verifiable": true,
+            "sha256": "00354d862d7c878a97f647e1df16f2fe2219d5a619c87a5602f46df38a071716",
+            "ripemd160": "05cea9a984e521547de3a405b79fd93c769424fe"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july21.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

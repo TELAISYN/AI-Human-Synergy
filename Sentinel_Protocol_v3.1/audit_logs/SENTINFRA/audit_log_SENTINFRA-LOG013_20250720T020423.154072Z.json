@@ -1,0 +1,41 @@
+[
+    {
+        "timestamp": "2025-07-20T02:04:23.153496Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "SENTINFRA-LOG013",
+        "input": {
+            "batch_filenames": [
+                ".DS_Store___20250720T015244.124629Z",
+                "AUDIT-EVIDENCE_VALIDATORS_REPRODUCIBILITY_SENTINFRA_PreDeployment_opentimestamps_OTS_v.july20.25_ots_upgrade_log_20250708T223347Z.txt___20250720T015244.125499Z",
+                "AUDIT-EVIDENCE_VALIDATORS_REPRODUCIBILITY_SENTINFRA_PreDeployment_opentimestamps_OTS_v.july20.25_ots_upgrade_log_20250708T223813Z.txt___20250720T015244.125189Z",
+                "AUDIT-EVIDENCE_VALIDATORS_REPRODUCIBILITY_SENTINFRA_PreDeployment_opentimestamps_OTS_v.july20.25_ots_upgrade_log_20250708T223927Z.txt___20250720T015244.125585Z",
+                "AUDIT-EVIDENCE_VALIDATORS_REPRODUCIBILITY_SENTINFRA_PreDeployment_opentimestamps_OTS_v.july20.25_ots_upgrade_log_20250718T040941Z.txt___20250720T015244.125010Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "SENTINFRA-SESS002",
+            "batch_screenshot_pre": "BATCH_PRE_20250720T015216Z.jpeg",
+            "batch_screenshot_post": "BATCH_POST_20250720T015308Z.jpeg",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS002_batch_evidence_01, 5 files, delta=52s. folder_dual_hash computed and checked.",
+            "delta_seconds": 52,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS002_batch_evidence_01",
+            "folder_dual_hash": "c1bee6e707ac96ceeae3a5ceb215e2e057138458"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july20.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

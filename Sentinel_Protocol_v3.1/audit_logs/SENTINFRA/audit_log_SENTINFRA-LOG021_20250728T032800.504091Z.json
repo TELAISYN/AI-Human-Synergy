@@ -1,0 +1,40 @@
+[
+    {
+        "timestamp": "2025-07-28T03:28:00.503634Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "SENTINFRA-LOG021",
+        "input": {
+            "batch_filenames": [
+                ".DS_Store___20250728T031210.341001Z",
+                "AUDIT-EVIDENCE_VALIDATORS_REPRODUCIBILITY_SENTINFRA_PreDeployment_opentimestamps_OTS_v.july23.25.md___20250728T031210.342440Z",
+                "hash_audit_report_DRWOO-VAL_AUDIT_SENTINFRA-SESS001.csv___20250728T031210.341573Z",
+                "hash_audit_report_ENGHOOKEY-VAL_SENTINFRA-SESS001.csv___20250728T031210.343234Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "SENTINFRA-SESS002",
+            "batch_screenshot_pre": "BATCH_PRE_20250728T031150Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250728T031225Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS002_batch_evidence_11_AUDIT-EVIDENCE_INDEPENDENT_VALIDATORS, 4 files, delta=35s. folder_dual_hash computed and checked.",
+            "delta_seconds": 35,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS002_batch_evidence_11_AUDIT-EVIDENCE_INDEPENDENT_VALIDATORS",
+            "folder_dual_hash": "951896dd9d771ef4f8d16a6542bc5feb8b6b90b9"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july28.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

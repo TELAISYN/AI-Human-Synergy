@@ -1,0 +1,657 @@
+{
+    "session_meta_id": "SENTINFRA-SESS011",
+    "timestamp": "20250802T235546.017997Z",
+    "compiled_logs": [
+        {
+            "file": "audit_log_SENTINFRA-SESS005_20250728T040641.075372Z.json",
+            "meta_id": "SENTINFRA-SESS005",
+            "timestamp": "20250728T040641.075372Z",
+            "entries": [
+                {
+                    "timestamp": "2025-07-28T04:06:41.075044Z",
+                    "event": "ANCHOR_OP_RETURN_REGISTERED",
+                    "meta_id": "SENTINFRA-SESS005",
+                    "input": {
+                        "session_context": "SENTINFRA-SESS005",
+                        "txid": "ea2251eeaaf2f288e0f249d3c4c57346c934636aa2d37a7cac930537d1e3aaaa",
+                        "block_height": 907511,
+                        "meta_id": "SENTINFRA-SESS005",
+                        "op_return_payload": "SENTINEL|SENTINFRA-SESS005|ec6ae8259da7c55958b156c5b7998633e3db18dc",
+                        "validation_step": "Session `.2ha` anchor verified via OP_RETURN.\nBlock 907511 confirmed.\nTXID and payload recorded under compliance (C5.3, C9.5).",
+                        "timestamp_registered": "2025-07-28T04:06:41.075038Z"
+                    },
+                    "output": {
+                        "status": "anchored",
+                        "anchored": true,
+                        "txid": "ea2251eeaaf2f288e0f249d3c4c57346c934636aa2d37a7cac930537d1e3aaaa",
+                        "block": 907511,
+                        "op_return_payload": "SENTINEL|SENTINFRA-SESS005|ec6ae8259da7c55958b156c5b7998633e3db18dc"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.july28.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "38fa755c2d5295a71ac709b87b7a9eb207ebc92dba982664343da0ce5c5cc490",
+            "2ha": "0db672f7d44cb0c859c87cec81d1e9fd9329e37d",
+            "ots_file": "audit_log_SENTINFRA-SESS005_20250728T040641.075372Z.hash.ots"
+        },
+        {
+            "file": "audit_log_SENTINFRA-LOG024_20250802T233637.716875Z.json",
+            "meta_id": "SENTINFRA-LOG024",
+            "timestamp": "20250802T233637.716875Z",
+            "entries": [
+                {
+                    "timestamp": "2025-08-02T23:36:37.716454Z",
+                    "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+                    "meta_id": "SENTINFRA-LOG024",
+                    "input": {
+                        "batch_filenames": [
+                            "Screenshot 2025-07-28 at 1.47.57\u202fpm.png___20250802T233347.421909Z",
+                            "Screenshot 2025-07-28 at 1.48.26\u202fpm.png___20250802T233347.423824Z"
+                        ],
+                        "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+                        "session_context": "SENTINFRA-SESS009",
+                        "batch_screenshot_pre": "BATCH_PRE_20250803T093300Z.png",
+                        "batch_screenshot_post": "BATCH_POST_20250803T093420Z.png",
+                        "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS009_batch_evidence_01_Screenshots_SENTINFRA-SESS005, 2 files, delta=80s. folder_dual_hash computed and checked.",
+                        "delta_seconds": 80,
+                        "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "final_hash_disclosed": false,
+                        "audit_type": "REPRODUCIBILITY",
+                        "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS009_batch_evidence_01_Screenshots_SENTINFRA-SESS005",
+                        "folder_dual_hash": "5887a9b247850122859e6448b39eae3fa1ca20dc"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.august02.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "d65b2ea4a8dc51023998a7f7a980b479007c5bda920a714edc9c86bcf3a2065b",
+            "2ha": "c3223708816b5d34c80718751de5b73f2fd0e520",
+            "ots_file": "audit_log_SENTINFRA-LOG024_20250802T233637.716875Z.hash.ots"
+        },
+        {
+            "file": "audit_log_SENTINFRA-LOG025_20250802T233659.051879Z.json",
+            "meta_id": "SENTINFRA-LOG025",
+            "timestamp": "20250802T233659.051879Z",
+            "entries": [
+                {
+                    "timestamp": "2025-08-02T23:36:59.051640Z",
+                    "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+                    "meta_id": "SENTINFRA-LOG025",
+                    "input": {
+                        "batch_filenames": [
+                            "Compiled_Screenshots_2025-08-03_AUDIT_REPRODUCIBILITY_SHA256_RIPEMD160_LIVE_AUGUST03_2025.pdf___20250802T233350.161733Z"
+                        ],
+                        "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+                        "session_context": "SENTINFRA-SESS009",
+                        "batch_screenshot_pre": "BATCH_PRE_20250803T093300Z.png",
+                        "batch_screenshot_post": "BATCH_POST_20250803T093420Z.png",
+                        "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS009_batch_evidence_02_Compiled_Screenshots_pdf, 1 files, delta=80s. folder_dual_hash computed and checked.",
+                        "delta_seconds": 80,
+                        "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "final_hash_disclosed": false,
+                        "audit_type": "REPRODUCIBILITY",
+                        "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS009_batch_evidence_02_Compiled_Screenshots_pdf",
+                        "folder_dual_hash": "76a704200146705d636ddb374c027f9ef6d5da66"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.august02.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "19774d3dfc5004e9ce988bb176a7c6daae2739f109cca962e8f4d257b490b7c2",
+            "2ha": "40cfec9ad5d90f602d74ad0afafd238376fc7211",
+            "ots_file": "audit_log_SENTINFRA-LOG025_20250802T233659.051879Z.hash.ots"
+        },
+        {
+            "file": "audit_log_SENTINFRA-LOG026_20250802T233731.816974Z.json",
+            "meta_id": "SENTINFRA-LOG026",
+            "timestamp": "20250802T233731.816974Z",
+            "entries": [
+                {
+                    "timestamp": "2025-08-02T23:37:31.816743Z",
+                    "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+                    "meta_id": "SENTINFRA-LOG026",
+                    "input": {
+                        "batch_filenames": [
+                            "Screenshot 2025-08-03 at 8.44.21\u202fam (2).png___20250802T233403.146569Z",
+                            "Screenshot 2025-08-03 at 8.44.21\u202fam.png___20250802T233400.138062Z",
+                            "Screenshot 2025-08-03 at 8.44.36\u202fam (2).png___20250802T233357.148243Z",
+                            "Screenshot 2025-08-03 at 8.44.36\u202fam.png___20250802T233357.877421Z",
+                            "Screenshot 2025-08-03 at 8.44.51\u202fam (2).png___20250802T233359.129600Z",
+                            "Screenshot 2025-08-03 at 8.44.51\u202fam.png___20250802T233406.990193Z",
+                            "Screenshot 2025-08-03 at 8.45.18\u202fam (2).png___20250802T233401.572664Z",
+                            "Screenshot 2025-08-03 at 8.45.18\u202fam.png___20250802T233357.879206Z",
+                            "Screenshot 2025-08-03 at 8.45.34\u202fam (2).png___20250802T233404.142140Z",
+                            "Screenshot 2025-08-03 at 8.45.34\u202fam.png___20250802T233405.148576Z",
+                            "Screenshot 2025-08-03 at 8.45.45\u202fam (2).png___20250802T233358.119700Z",
+                            "Screenshot 2025-08-03 at 8.45.45\u202fam.png___20250802T233405.160352Z",
+                            "Screenshot 2025-08-03 at 8.46.23\u202fam (2).png___20250802T233352.942014Z",
+                            "Screenshot 2025-08-03 at 8.46.23\u202fam.png___20250802T233402.142347Z",
+                            "Screenshot 2025-08-03 at 8.46.38\u202fam (2).png___20250802T233356.871658Z",
+                            "Screenshot 2025-08-03 at 8.46.38\u202fam.png___20250802T233352.942955Z",
+                            "Screenshot 2025-08-03 at 8.48.37\u202fam (2).png___20250802T233357.147198Z",
+                            "Screenshot 2025-08-03 at 8.48.37\u202fam.png___20250802T233356.871700Z",
+                            "Screenshot 2025-08-03 at 8.48.57\u202fam (2).png___20250802T233355.095556Z",
+                            "Screenshot 2025-08-03 at 8.48.57\u202fam.png___20250802T233405.583575Z",
+                            "Screenshot 2025-08-03 at 8.49.27\u202fam (2).png___20250802T233352.941933Z",
+                            "Screenshot 2025-08-03 at 8.49.27\u202fam.png___20250802T233355.122033Z",
+                            "Screenshot 2025-08-03 at 8.50.21\u202fam (2).png___20250802T233400.137287Z",
+                            "Screenshot 2025-08-03 at 8.50.21\u202fam.png___20250802T233357.877312Z",
+                            "Screenshot 2025-08-03 at 8.55.38\u202fam (2).png___20250802T233352.956837Z",
+                            "Screenshot 2025-08-03 at 8.55.38\u202fam.png___20250802T233356.873304Z",
+                            "Screenshot 2025-08-03 at 8.56.16\u202fam (2).png___20250802T233355.118133Z",
+                            "Screenshot 2025-08-03 at 8.56.16\u202fam.png___20250802T233402.137124Z",
+                            "Screenshot 2025-08-03 at 8.56.35\u202fam (2).png___20250802T233359.130869Z",
+                            "Screenshot 2025-08-03 at 8.56.35\u202fam.png___20250802T233352.910246Z",
+                            "Screenshot 2025-08-03 at 9.00.08\u202fam (2).png___20250802T233407.151992Z",
+                            "Screenshot 2025-08-03 at 9.00.08\u202fam.png___20250802T233407.588483Z",
+                            "Screenshot 2025-08-03 at 9.00.11\u202fam (2).png___20250802T233402.137170Z",
+                            "Screenshot 2025-08-03 at 9.00.11\u202fam.png___20250802T233352.944353Z",
+                            "Screenshot 2025-08-03 at 9.00.18\u202fam (2).png___20250802T233358.916874Z",
+                            "Screenshot 2025-08-03 at 9.00.18\u202fam.png___20250802T233404.141378Z",
+                            "Screenshot 2025-08-03 at 9.00.20\u202fam (2).png___20250802T233354.862727Z",
+                            "Screenshot 2025-08-03 at 9.00.20\u202fam.png___20250802T233408.007259Z",
+                            "Screenshot 2025-08-03 at 9.00.27\u202fam (2).png___20250802T233359.561647Z",
+                            "Screenshot 2025-08-03 at 9.00.27\u202fam.png___20250802T233355.118683Z",
+                            "Screenshot 2025-08-03 at 9.00.30\u202fam (2).png___20250802T233403.150129Z",
+                            "Screenshot 2025-08-03 at 9.00.30\u202fam.png___20250802T233401.960410Z",
+                            "Screenshot 2025-08-03 at 9.00.42\u202fam (2).png___20250802T233355.094608Z",
+                            "Screenshot 2025-08-03 at 9.00.42\u202fam.png___20250802T233357.147394Z",
+                            "Screenshot 2025-08-03 at 9.00.45\u202fam (2).png___20250802T233359.131272Z",
+                            "Screenshot 2025-08-03 at 9.00.45\u202fam.png___20250802T233401.143149Z",
+                            "Screenshot 2025-08-03 at 9.00.52\u202fam (2).png___20250802T233403.150314Z",
+                            "Screenshot 2025-08-03 at 9.00.52\u202fam.png___20250802T233359.566277Z",
+                            "Screenshot 2025-08-03 at 9.00.56\u202fam (2).png___20250802T233352.943425Z",
+                            "Screenshot 2025-08-03 at 9.00.56\u202fam.png___20250802T233355.542158Z",
+                            "Screenshot 2025-08-03 at 9.01.02\u202fam (2).png___20250802T233357.153525Z",
+                            "Screenshot 2025-08-03 at 9.01.02\u202fam.png___20250802T233404.984189Z",
+                            "Screenshot 2025-08-03 at 9.01.06\u202fam (2).png___20250802T233403.581149Z",
+                            "Screenshot 2025-08-03 at 9.01.06\u202fam.png___20250802T233400.136783Z",
+                            "Screenshot 2025-08-03 at 9.01.14\u202fam (2).png___20250802T233352.915925Z",
+                            "Screenshot 2025-08-03 at 9.01.14\u202fam.png___20250802T233357.878280Z",
+                            "Screenshot 2025-08-03 at 9.01.18\u202fam (2).png___20250802T233402.978803Z",
+                            "Screenshot 2025-08-03 at 9.01.18\u202fam.png___20250802T233357.877526Z",
+                            "Screenshot 2025-08-03 at 9.01.41\u202fam (2).png___20250802T233352.916530Z",
+                            "Screenshot 2025-08-03 at 9.01.41\u202fam.png___20250802T233359.911253Z",
+                            "Screenshot 2025-08-03 at 9.01.45\u202fam (2).png___20250802T233357.877452Z",
+                            "Screenshot 2025-08-03 at 9.01.45\u202fam.png___20250802T233404.984221Z",
+                            "Screenshot 2025-08-03 at 9.01.51\u202fam (2).png___20250802T233403.146863Z",
+                            "Screenshot 2025-08-03 at 9.01.51\u202fam.png___20250802T233403.581794Z",
+                            "Screenshot 2025-08-03 at 9.01.55\u202fam (2).png___20250802T233355.871083Z",
+                            "Screenshot 2025-08-03 at 9.01.55\u202fam.png___20250802T233405.587687Z",
+                            "Screenshot 2025-08-03 at 9.02.02\u202fam (2).png___20250802T233352.955485Z",
+                            "Screenshot 2025-08-03 at 9.02.02\u202fam.png___20250802T233355.118846Z",
+                            "Screenshot 2025-08-03 at 9.02.05\u202fam (2).png___20250802T233355.117835Z",
+                            "Screenshot 2025-08-03 at 9.02.05\u202fam.png___20250802T233407.592766Z",
+                            "Screenshot 2025-08-03 at 9.02.12\u202fam (2).png___20250802T233405.587921Z",
+                            "Screenshot 2025-08-03 at 9.02.12\u202fam.png___20250802T233352.921611Z",
+                            "Screenshot 2025-08-03 at 9.02.16\u202fam (2).png___20250802T233359.129998Z",
+                            "Screenshot 2025-08-03 at 9.02.16\u202fam.png___20250802T233400.138194Z",
+                            "Screenshot 2025-08-03 at 9.02.24\u202fam (2).png___20250802T233357.146123Z",
+                            "Screenshot 2025-08-03 at 9.02.24\u202fam.png___20250802T233355.121822Z",
+                            "Screenshot 2025-08-03 at 9.02.27\u202fam (2).png___20250802T233401.572256Z",
+                            "Screenshot 2025-08-03 at 9.02.27\u202fam.png___20250802T233403.577893Z",
+                            "Screenshot 2025-08-03 at 9.02.36\u202fam (2).png___20250802T233401.144849Z",
+                            "Screenshot 2025-08-03 at 9.02.36\u202fam.png___20250802T233355.099048Z",
+                            "Screenshot 2025-08-03 at 9.02.39\u202fam (2).png___20250802T233407.147806Z",
+                            "Screenshot 2025-08-03 at 9.02.39\u202fam.png___20250802T233401.809960Z",
+                            "Screenshot 2025-08-03 at 9.02.47\u202fam (2).png___20250802T233405.160662Z",
+                            "Screenshot 2025-08-03 at 9.02.47\u202fam.png___20250802T233352.918493Z",
+                            "Screenshot 2025-08-03 at 9.02.50\u202fam (2).png___20250802T233355.542145Z",
+                            "Screenshot 2025-08-03 at 9.02.50\u202fam.png___20250802T233405.586784Z",
+                            "Screenshot 2025-08-03 at 9.03.09\u202fam (2).png___20250802T233357.146219Z",
+                            "Screenshot 2025-08-03 at 9.03.09\u202fam.png___20250802T233401.141012Z",
+                            "Screenshot 2025-08-03 at 9.03.13\u202fam (2).png___20250802T233401.572196Z",
+                            "Screenshot 2025-08-03 at 9.03.13\u202fam.png___20250802T233403.986781Z",
+                            "Screenshot 2025-08-03 at 9.03.24\u202fam (2).png___20250802T233403.580907Z",
+                            "Screenshot 2025-08-03 at 9.03.24\u202fam.png___20250802T233358.917586Z",
+                            "Screenshot 2025-08-03 at 9.03.27\u202fam (2).png___20250802T233359.566280Z",
+                            "Screenshot 2025-08-03 at 9.03.27\u202fam.png___20250802T233405.587986Z",
+                            "Screenshot 2025-08-03 at 9.03.35\u202fam (2).png___20250802T233401.144947Z",
+                            "Screenshot 2025-08-03 at 9.03.35\u202fam.png___20250802T233407.146905Z",
+                            "Screenshot 2025-08-03 at 9.03.38\u202fam (2).png___20250802T233403.581632Z",
+                            "Screenshot 2025-08-03 at 9.03.38\u202fam.png___20250802T233359.566215Z",
+                            "Screenshot 2025-08-03 at 9.03.46\u202fam (2).png___20250802T233401.572220Z",
+                            "Screenshot 2025-08-03 at 9.03.46\u202fam.png___20250802T233404.586570Z",
+                            "Screenshot 2025-08-03 at 9.03.49\u202fam (2).png___20250802T233404.984241Z",
+                            "Screenshot 2025-08-03 at 9.03.49\u202fam.png___20250802T233357.147266Z",
+                            "Screenshot 2025-08-03 at 9.04.08\u202fam (2).png___20250802T233407.588891Z",
+                            "Screenshot 2025-08-03 at 9.04.08\u202fam.png___20250802T233357.138682Z",
+                            "Screenshot 2025-08-03 at 9.04.12\u202fam (2).png___20250802T233352.930839Z",
+                            "Screenshot 2025-08-03 at 9.04.12\u202fam.png___20250802T233355.122129Z",
+                            "Screenshot 2025-08-03 at 9.04.22\u202fam (2).png___20250802T233358.917664Z",
+                            "Screenshot 2025-08-03 at 9.04.22\u202fam.png___20250802T233357.147347Z",
+                            "Screenshot 2025-08-03 at 9.04.25\u202fam (2).png___20250802T233355.099538Z",
+                            "Screenshot 2025-08-03 at 9.04.25\u202fam.png___20250802T233401.139741Z",
+                            "Screenshot 2025-08-03 at 9.04.30\u202fam (2).png___20250802T233402.978102Z",
+                            "Screenshot 2025-08-03 at 9.04.30\u202fam.png___20250802T233359.563533Z",
+                            "Screenshot 2025-08-03 at 9.04.34\u202fam (2).png___20250802T233352.936114Z",
+                            "Screenshot 2025-08-03 at 9.04.34\u202fam.png___20250802T233352.914805Z",
+                            "Screenshot 2025-08-03 at 9.04.41\u202fam (2).png___20250802T233408.006232Z",
+                            "Screenshot 2025-08-03 at 9.04.41\u202fam.png___20250802T233359.132019Z",
+                            "Screenshot 2025-08-03 at 9.04.46\u202fam (2).png___20250802T233357.878246Z",
+                            "Screenshot 2025-08-03 at 9.04.46\u202fam.png___20250802T233403.150423Z",
+                            "Screenshot 2025-08-03 at 9.04.54\u202fam (2).png___20250802T233400.138465Z",
+                            "Screenshot 2025-08-03 at 9.04.54\u202fam.png___20250802T233400.930323Z",
+                            "Screenshot 2025-08-03 at 9.04.58\u202fam (2).png___20250802T233402.142261Z",
+                            "Screenshot 2025-08-03 at 9.04.58\u202fam.png___20250802T233401.139627Z",
+                            "Screenshot 2025-08-03 at 9.05.04\u202fam (2).png___20250802T233400.930294Z",
+                            "Screenshot 2025-08-03 at 9.05.04\u202fam.png___20250802T233355.105585Z",
+                            "Screenshot 2025-08-03 at 9.05.08\u202fam (2).png___20250802T233352.916326Z",
+                            "Screenshot 2025-08-03 at 9.05.08\u202fam.png___20250802T233352.928083Z",
+                            "Screenshot 2025-08-03 at 9.05.16\u202fam (2).png___20250802T233357.136556Z",
+                            "Screenshot 2025-08-03 at 9.05.16\u202fam.png___20250802T233355.121644Z",
+                            "Screenshot 2025-08-03 at 9.05.20\u202fam (2).png___20250802T233405.160633Z",
+                            "Screenshot 2025-08-03 at 9.05.20\u202fam.png___20250802T233355.099243Z",
+                            "Screenshot 2025-08-03 at 9.05.29\u202fam (2).png___20250802T233357.153438Z",
+                            "Screenshot 2025-08-03 at 9.05.29\u202fam.png___20250802T233405.583652Z",
+                            "Screenshot 2025-08-03 at 9.05.33\u202fam (2).png___20250802T233402.978065Z",
+                            "Screenshot 2025-08-03 at 9.05.33\u202fam.png___20250802T233400.137530Z",
+                            "Screenshot 2025-08-03 at 9.05.39\u202fam (2).png___20250802T233404.142672Z",
+                            "Screenshot 2025-08-03 at 9.05.39\u202fam.png___20250802T233402.560127Z",
+                            "Screenshot 2025-08-03 at 9.05.44\u202fam (2).png___20250802T233352.934307Z",
+                            "Screenshot 2025-08-03 at 9.05.44\u202fam.png___20250802T233404.142136Z",
+                            "Screenshot 2025-08-03 at 9.05.51\u202fam (2).png___20250802T233400.930405Z",
+                            "Screenshot 2025-08-03 at 9.05.51\u202fam.png___20250802T233352.915345Z",
+                            "Screenshot 2025-08-03 at 9.05.54\u202fam (2).png___20250802T233359.911040Z",
+                            "Screenshot 2025-08-03 at 9.05.54\u202fam.png___20250802T233403.582284Z",
+                            "Screenshot 2025-08-03 at 9.06.01\u202fam (2).png___20250802T233401.140032Z",
+                            "Screenshot 2025-08-03 at 9.06.01\u202fam.png___20250802T233352.928737Z",
+                            "Screenshot 2025-08-03 at 9.06.05\u202fam (2).png___20250802T233355.870687Z",
+                            "Screenshot 2025-08-03 at 9.06.05\u202fam.png___20250802T233352.961002Z",
+                            "Screenshot 2025-08-03 at 9.06.10\u202fam (2).png___20250802T233401.572589Z",
+                            "Screenshot 2025-08-03 at 9.06.10\u202fam.png___20250802T233400.138259Z",
+                            "Screenshot 2025-08-03 at 9.06.14\u202fam (2).png___20250802T233352.929749Z",
+                            "Screenshot 2025-08-03 at 9.06.14\u202fam.png___20250802T233403.577278Z",
+                            "Screenshot 2025-08-03 at 9.06.25\u202fam (2).png___20250802T233405.148512Z",
+                            "Screenshot 2025-08-03 at 9.06.25\u202fam.png___20250802T233355.106449Z",
+                            "Screenshot 2025-08-03 at 9.06.31\u202fam (2).png___20250802T233403.577038Z",
+                            "Screenshot 2025-08-03 at 9.06.31\u202fam.png___20250802T233359.911084Z",
+                            "Screenshot 2025-08-03 at 9.06.40\u202fam (2).png___20250802T233359.910955Z",
+                            "Screenshot 2025-08-03 at 9.06.40\u202fam.png___20250802T233357.877271Z",
+                            "Screenshot 2025-08-03 at 9.06.44\u202fam (2).png___20250802T233352.928410Z",
+                            "Screenshot 2025-08-03 at 9.06.44\u202fam.png___20250802T233355.118286Z",
+                            "Screenshot 2025-08-03 at 9.06.50\u202fam (2).png___20250802T233352.940839Z",
+                            "Screenshot 2025-08-03 at 9.06.50\u202fam.png___20250802T233355.098091Z",
+                            "Screenshot 2025-08-03 at 9.06.55\u202fam (2).png___20250802T233352.914538Z",
+                            "Screenshot 2025-08-03 at 9.06.55\u202fam.png___20250802T233403.150474Z",
+                            "Screenshot 2025-08-03 at 9.07.02\u202fam (2).png___20250802T233403.150186Z",
+                            "Screenshot 2025-08-03 at 9.07.02\u202fam.png___20250802T233402.556154Z",
+                            "Screenshot 2025-08-03 at 9.07.05\u202fam (2).png___20250802T233404.142278Z",
+                            "Screenshot 2025-08-03 at 9.07.05\u202fam.png___20250802T233355.121796Z",
+                            "Screenshot 2025-08-03 at 9.07.15\u202fam (2).png___20250802T233359.129765Z",
+                            "Screenshot 2025-08-03 at 9.07.15\u202fam.png___20250802T233352.947521Z",
+                            "Screenshot 2025-08-03 at 9.07.17\u202fam (2).png___20250802T233352.929914Z",
+                            "Screenshot 2025-08-03 at 9.07.17\u202fam.png___20250802T233354.862749Z",
+                            "Screenshot 2025-08-03 at 9.07.24\u202fam (2).png___20250802T233404.141282Z",
+                            "Screenshot 2025-08-03 at 9.07.24\u202fam.png___20250802T233407.147497Z",
+                            "Screenshot 2025-08-03 at 9.07.27\u202fam (2).png___20250802T233359.129554Z",
+                            "Screenshot 2025-08-03 at 9.07.27\u202fam.png___20250802T233359.566332Z",
+                            "Screenshot 2025-08-03 at 9.07.34\u202fam (2).png___20250802T233354.863128Z",
+                            "Screenshot 2025-08-03 at 9.07.34\u202fam.png___20250802T233403.986846Z",
+                            "Screenshot 2025-08-03 at 9.07.37\u202fam (2).png___20250802T233406.990169Z",
+                            "Screenshot 2025-08-03 at 9.07.37\u202fam.png___20250802T233357.148452Z",
+                            "Screenshot 2025-08-03 at 9.07.44\u202fam (2).png___20250802T233405.148530Z",
+                            "Screenshot 2025-08-03 at 9.07.44\u202fam.png___20250802T233357.138811Z",
+                            "Screenshot 2025-08-03 at 9.07.48\u202fam (2).png___20250802T233355.120730Z",
+                            "Screenshot 2025-08-03 at 9.07.48\u202fam.png___20250802T233357.138527Z",
+                            "Screenshot 2025-08-03 at 9.08.14\u202fam (2).png___20250802T233357.138481Z",
+                            "Screenshot 2025-08-03 at 9.08.14\u202fam.png___20250802T233355.123828Z"
+                        ],
+                        "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+                        "session_context": "SENTINFRA-SESS009",
+                        "batch_screenshot_pre": "BATCH_PRE_20250803T093300Z.png",
+                        "batch_screenshot_post": "BATCH_POST_20250803T093420Z.png",
+                        "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS009_batch_evidence_03_Screenshots_evidence_png, 184 files, delta=80s. folder_dual_hash computed and checked.",
+                        "delta_seconds": 80,
+                        "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "final_hash_disclosed": false,
+                        "audit_type": "REPRODUCIBILITY",
+                        "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS009_batch_evidence_03_Screenshots_evidence_png",
+                        "folder_dual_hash": "2bac8774240e7ea362bd4bef43fc51a1b82090b8"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.august02.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "e9806be20e965c5e41ef3f62f4605778ffb2a4e2d2996360792a4abc4c8812b7",
+            "2ha": "90fbafcc190aaaa0d46dfc49455c2be9f68657dc",
+            "ots_file": "audit_log_SENTINFRA-LOG026_20250802T233731.816974Z.hash.ots"
+        },
+        {
+            "file": "audit_log_SENTINFRA-LOG027_20250802T233800.281717Z.json",
+            "meta_id": "SENTINFRA-LOG027",
+            "timestamp": "20250802T233800.281717Z",
+            "entries": [
+                {
+                    "timestamp": "2025-08-02T23:38:00.281139Z",
+                    "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+                    "meta_id": "SENTINFRA-LOG027",
+                    "input": {
+                        "batch_filenames": [
+                            ".DS_Store___20250802T233410.099094Z",
+                            "hash_audit_report.csv___20250802T233410.101206Z"
+                        ],
+                        "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+                        "session_context": "SENTINFRA-SESS009",
+                        "batch_screenshot_pre": "BATCH_PRE_20250803T093300Z.png",
+                        "batch_screenshot_post": "BATCH_POST_20250803T093420Z.png",
+                        "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS009_batch_evidence_04_live_re-execution_dualhash_verification_copies, 2 files, delta=80s. folder_dual_hash computed and checked.",
+                        "delta_seconds": 80,
+                        "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "final_hash_disclosed": false,
+                        "audit_type": "REPRODUCIBILITY",
+                        "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS009_batch_evidence_04_live_re-execution_dualhash_verification_copies",
+                        "folder_dual_hash": "2dee1aed5ff58d91b2c5c0022198c00601c812c2"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.august02.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "c66a94a3f5594b816a6d35da566448b27165334cf53487fea09c238a981f97be",
+            "2ha": "bbb80da9eb3b2b685cd748226b8a0e06e590a73e",
+            "ots_file": "audit_log_SENTINFRA-LOG027_20250802T233800.281717Z.hash.ots"
+        },
+        {
+            "file": "audit_log_SENTINFRA-LOG028_20250802T233815.315136Z.json",
+            "meta_id": "SENTINFRA-LOG028",
+            "timestamp": "20250802T233815.315136Z",
+            "entries": [
+                {
+                    "timestamp": "2025-08-02T23:38:15.314518Z",
+                    "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+                    "meta_id": "SENTINFRA-LOG028",
+                    "input": {
+                        "batch_filenames": [
+                            "dualhasher_public_sentinel.py___20250802T233412.263145Z",
+                            "extract_hashes.py___20250802T233412.262726Z"
+                        ],
+                        "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+                        "session_context": "SENTINFRA-SESS009",
+                        "batch_screenshot_pre": "BATCH_PRE_20250803T093300Z.png",
+                        "batch_screenshot_post": "BATCH_POST_20250803T093420Z.png",
+                        "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS009_batch_evidence_05_Sentinel3.1_public_tools_testing, 2 files, delta=80s. folder_dual_hash computed and checked.",
+                        "delta_seconds": 80,
+                        "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "final_hash_disclosed": false,
+                        "audit_type": "REPRODUCIBILITY",
+                        "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS009_batch_evidence_05_Sentinel3.1_public_tools_testing",
+                        "folder_dual_hash": "09a33e4435ce562a0e565907b0ee83ab9b7dccc1"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.august02.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "92cafb6a3021854a31fe90f646e2b956fbbf1544a79e75f2120068028a33fec0",
+            "2ha": "f8b28e2beb4af3060668f459b4d04c2bc5e3b8f5",
+            "ots_file": "audit_log_SENTINFRA-LOG028_20250802T233815.315136Z.hash.ots"
+        },
+        {
+            "file": "audit_log_SENTINFRA-LOG029_20250802T233842.814681Z.json",
+            "meta_id": "SENTINFRA-LOG029",
+            "timestamp": "20250802T233842.814681Z",
+            "entries": [
+                {
+                    "timestamp": "2025-08-02T23:38:42.814163Z",
+                    "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+                    "meta_id": "SENTINFRA-LOG029",
+                    "input": {
+                        "batch_filenames": [
+                            ".DS_Store___20250802T233414.269909Z"
+                        ],
+                        "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+                        "session_context": "SENTINFRA-SESS009",
+                        "batch_screenshot_pre": "BATCH_PRE_20250803T093300Z.png",
+                        "batch_screenshot_post": "BATCH_POST_20250803T093420Z.png",
+                        "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS009_batch_evidence_06_original_hashes_githubv3.1commit, 1 files, delta=80s. folder_dual_hash computed and checked.",
+                        "delta_seconds": 80,
+                        "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "final_hash_disclosed": false,
+                        "audit_type": "REPRODUCIBILITY",
+                        "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS009_batch_evidence_06_original_hashes_githubv3.1commit",
+                        "folder_dual_hash": "dad45932f4b4d92b21c50f163250c93b57b24779"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.august02.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "e4f360e1a4e110362bcad503f07969c0eb98b0e9a92b88440050e7b5de4a0078",
+            "2ha": "35d22ef7d6874c5e89c2cfdceb1f374675e4fd4b",
+            "ots_file": "audit_log_SENTINFRA-LOG029_20250802T233842.814681Z.hash.ots"
+        },
+        {
+            "file": "audit_log_SENTINFRA-LOG030_20250802T233858.495322Z.json",
+            "meta_id": "SENTINFRA-LOG030",
+            "timestamp": "20250802T233858.495322Z",
+            "entries": [
+                {
+                    "timestamp": "2025-08-02T23:38:58.494746Z",
+                    "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+                    "meta_id": "SENTINFRA-LOG030",
+                    "input": {
+                        "batch_filenames": [
+                            ".DS_Store___20250802T233416.287560Z",
+                            "AUDIT_REPRODUCIBILITY_PASS_SHA256_RIPEMD160_SENTINFRA_DRTELLES-VAL_v.august03.25.md___20250802T233416.288109Z"
+                        ],
+                        "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+                        "session_context": "SENTINFRA-SESS009",
+                        "batch_screenshot_pre": "BATCH_PRE_20250803T093300Z.png",
+                        "batch_screenshot_post": "BATCH_POST_20250803T093420Z.png",
+                        "validation_step": "VALIS v2.4 enforcement active. Meta-ID: SENTINFRA-SESS009_batch_evidence_07_AUDIT_REPRODUCIBILITY_PASS_SHA256_RIPEMD160_SENTINFRA_DRTELLES-VAL_v.august03.25, 2 files, delta=80s. folder_dual_hash computed and checked.",
+                        "delta_seconds": 80,
+                        "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "final_hash_disclosed": false,
+                        "audit_type": "REPRODUCIBILITY",
+                        "meta_id": "SENTINFRA-LOG-SENTINFRA-SESS009_batch_evidence_07_AUDIT_REPRODUCIBILITY_PASS_SHA256_RIPEMD160_SENTINFRA_DRTELLES-VAL_v.august03.25",
+                        "folder_dual_hash": "3ac423d58dc8711d0f33ecff8c6d855489d177ed"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.august02.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "25c0a6df9328e92ce24c3f20bbeedba605b2ea32e06980b267307a50ece208ae",
+            "2ha": "6004070d49e74a56240e2ccff98d3b6e165f167f",
+            "ots_file": "audit_log_SENTINFRA-LOG030_20250802T233858.495322Z.hash.ots"
+        },
+        {
+            "file": "audit_log_SENTINFRA-LOG031_20250802T235310.225398Z.json",
+            "meta_id": "SENTINFRA-LOG031",
+            "timestamp": "20250802T235310.225398Z",
+            "entries": [
+                {
+                    "timestamp": "2025-08-02T23:53:10.225104Z",
+                    "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+                    "meta_id": "SENTINFRA-LOG031",
+                    "input": {
+                        "batch_filenames": [
+                            ".DS_Store___20250802T234712.548443Z",
+                            "Screenshot 2025-08-03 at 9.33.39\u202fam (2).png___20250802T234712.556572Z",
+                            "Screenshot 2025-08-03 at 9.33.39\u202fam.png___20250802T234712.544688Z",
+                            "Screenshot 2025-08-03 at 9.33.52\u202fam (2).png___20250802T234712.570736Z",
+                            "Screenshot 2025-08-03 at 9.33.52\u202fam.png___20250802T234712.560018Z",
+                            "Screenshot 2025-08-03 at 9.33.55\u202fam (2).png___20250802T234712.565017Z",
+                            "Screenshot 2025-08-03 at 9.33.55\u202fam.png___20250802T234712.566079Z",
+                            "Screenshot 2025-08-03 at 9.34.15\u202fam (2).png___20250802T234712.546171Z",
+                            "Screenshot 2025-08-03 at 9.34.15\u202fam.png___20250802T234712.548140Z",
+                            "Screenshot 2025-08-03 at 9.34.22\u202fam (2).png___20250802T234712.545824Z",
+                            "Screenshot 2025-08-03 at 9.34.22\u202fam.png___20250802T234712.560256Z",
+                            "Screenshot 2025-08-03 at 9.40.32\u202fam (2).png___20250802T234712.566713Z",
+                            "Screenshot 2025-08-03 at 9.40.32\u202fam.png___20250802T234712.557560Z",
+                            "Screenshot 2025-08-03 at 9.41.02\u202fam (2).png___20250802T234712.554084Z",
+                            "Screenshot 2025-08-03 at 9.41.02\u202fam.png___20250802T234712.559667Z",
+                            "Screenshot 2025-08-03 at 9.41.12\u202fam (2).png___20250802T234712.560977Z",
+                            "Screenshot 2025-08-03 at 9.41.12\u202fam.png___20250802T234712.555591Z",
+                            "Screenshot 2025-08-03 at 9.41.35\u202fam (2).png___20250802T234712.552308Z",
+                            "Screenshot 2025-08-03 at 9.41.35\u202fam.png___20250802T234712.571226Z"
+                        ],
+                        "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+                        "session_context": "SENTINFRA-SESS009",
+                        "batch_screenshot_pre": "BATCH_PRE_20250803T094709Z.png",
+                        "batch_screenshot_post": "BATCH_POST_20250803T094725Z.png",
+                        "validation_step": "VALIS v2.4 enforcement active. Meta-ID: batch_evidence_08_Screenshots_SENTINFRA-SESS009, 19 files, delta=16s. folder_dual_hash computed and checked.",
+                        "delta_seconds": 16,
+                        "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "final_hash_disclosed": false,
+                        "audit_type": "REPRODUCIBILITY",
+                        "meta_id": "SENTINFRA-LOG-batch_evidence_08_Screenshots_SENTINFRA-SESS009",
+                        "folder_dual_hash": "6745b025c6daf81d899f331d62b6342a8682ba0b"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.august02.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "c4ad1ecdd81902b1b5d83a16e176742952d61520805d167f38e45b5bfdad2524",
+            "2ha": "5f66f2cd0456d526cad5b4a20c6f0547e969dbd0",
+            "ots_file": "audit_log_SENTINFRA-LOG031_20250802T235310.225398Z.hash.ots"
+        },
+        {
+            "file": "audit_log_SENTINFRA-LOG032_20250802T235329.842337Z.json",
+            "meta_id": "SENTINFRA-LOG032",
+            "timestamp": "20250802T235329.842337Z",
+            "entries": [
+                {
+                    "timestamp": "2025-08-02T23:53:29.841963Z",
+                    "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+                    "meta_id": "SENTINFRA-LOG032",
+                    "input": {
+                        "batch_filenames": [
+                            "CompiledScreenshotsPDF_SENTINFRA-SESS009_2025-08-03.pdf___20250802T234715.741126Z"
+                        ],
+                        "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+                        "session_context": "SENTINFRA-SESS009",
+                        "batch_screenshot_pre": "BATCH_PRE_20250803T094709Z.png",
+                        "batch_screenshot_post": "BATCH_POST_20250803T094725Z.png",
+                        "validation_step": "VALIS v2.4 enforcement active. Meta-ID: batch_evidence_09_CompiledScreenshotsPDF_SENTINFRA-SESS009, 1 files, delta=16s. folder_dual_hash computed and checked.",
+                        "delta_seconds": 16,
+                        "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "final_hash_disclosed": false,
+                        "audit_type": "REPRODUCIBILITY",
+                        "meta_id": "SENTINFRA-LOG-batch_evidence_09_CompiledScreenshotsPDF_SENTINFRA-SESS009",
+                        "folder_dual_hash": "09c18a2247032a67d2796bd2eeca362bfe1d9630"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.august02.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "7489ae3c26e035cac5ff93ad43d5d6c48994f2b0fea8c179f0c08c82d493bb85",
+            "2ha": "bb9eb5f06a3b24f1f45fa72be24053ddc154c45e",
+            "ots_file": "audit_log_SENTINFRA-LOG032_20250802T235329.842337Z.hash.ots"
+        }
+    ]
+}

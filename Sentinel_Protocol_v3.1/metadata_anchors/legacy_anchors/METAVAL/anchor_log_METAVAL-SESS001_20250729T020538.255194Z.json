@@ -1,0 +1,12 @@
+{
+    "meta_id": "METAVAL-SESS001",
+    "timestamp": "2025-07-29T02:05:38.255040Z",
+    "sha256": "941f452e1dcd685cad485f1d26183a684daa0a96c5ff26945260365ba58c736e",
+    "ripemd160": "311bae927960e74beb9046a69fc33e0ad43397a3",
+    "op_return": {
+        "txid": "cf229b23b074dd9aadfbf37451465725dc30430615e658c7cb44717ed0a4d26e",
+        "payload": "SENTINEL|METAVAL-SESS001|311bae927960e74beb9046a69fc33e0ad43397a3",
+        "block_height": 907525
+    },
+    "ordinal": null
+}

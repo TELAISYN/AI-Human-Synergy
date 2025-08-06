@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-01T05:20:22.695011Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR074",
+        "input": {
+            "document_title": "MVP-2.5 | Human Audit \u2013 LLM vs Human Disagreement Summary",
+            "filename": "Human Audit \u2013 LLM vs Human Disagreement Summary.md",
+            "evidence_path": "evidence_files/Human Audit \u2013 LLM vs Human Disagreement Summary.md",
+            "sha256_file": "evidence_files/Human Audit \u2013 LLM vs Human Disagreement Summary.md.hash",
+            "ripemd160_file": "evidence_files/Human Audit \u2013 LLM vs Human Disagreement Summary.md.2ha",
+            "ots_file": "evidence_files/Human Audit \u2013 LLM vs Human Disagreement Summary.md.hash.ots",
+            "validation_step": "Audit file validated by `HashValidatorBlock.py`. Disk hash matched saved `.hash` and `.2ha` files, and `.ots` timestamp located. Logged under `VALIS_Template_Canonical_v1.py`.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "97ef8c317eef29d3ee87f6dc11988fe847a18da9144943d9f3813f759d26786b",
+            "ripemd160": "54727f865785d0925514e91dfa921e00b2ac3dc5"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

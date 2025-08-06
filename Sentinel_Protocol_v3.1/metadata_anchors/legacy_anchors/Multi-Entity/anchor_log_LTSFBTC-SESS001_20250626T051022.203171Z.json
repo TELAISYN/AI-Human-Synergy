@@ -1,0 +1,12 @@
+{
+    "meta_id": "LTSFBTC-SESS001",
+    "timestamp": "2025-06-26T05:10:22.202879Z",
+    "sha256": "91aa0de56ded4ef936a31991ae99560ac46181d8630c075f2af4085065aa7943",
+    "ripemd160": "e0089796051387f3f55866f95cb9893fe06afb58",
+    "op_return": {
+        "txid": "3c1d8017436fd4b53d762912b5abf8f08d2a76cf12b421b12813ca3c844bb177",
+        "payload": "LTSFBTC|LTSFBTC-SESS001|e0089796051387f3f55866f95cb9893fe06afb58",
+        "block_height": 902753
+    },
+    "ordinal": null
+}

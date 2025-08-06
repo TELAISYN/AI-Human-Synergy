@@ -1,0 +1,60 @@
+[
+    {
+        "timestamp": "2025-07-28T03:51:55.068673Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "SENTINFRA-LOG023",
+        "input": {
+            "batch_filenames": [
+                ".DS_Store___20250728T034807.446137Z",
+                "4239baa91fee5872e4654fc61a8c89839b04791da3d3c9e86533614e6947e68b 2.JPG___20250728T034807.472090Z",
+                "Screenshot 2025-07-20 at 12.08.57\u202fpm.png___20250728T034807.461901Z",
+                "Screenshot 2025-07-20 at 12.10.01\u202fpm.png___20250728T034807.466571Z",
+                "Screenshot 2025-07-20 at 12.10.38\u202fpm.png___20250728T034807.446389Z",
+                "Screenshot 2025-07-20 at 12.27.08\u202fpm.png___20250728T034807.478307Z",
+                "Screenshot 2025-07-20 at 12.35.38\u202fpm.png___20250728T034807.466069Z",
+                "Screenshot 2025-07-20 at 12.36.10\u202fpm.png___20250728T034807.447715Z",
+                "Screenshot 2025-07-20 at 12.36.26\u202fpm.png___20250728T034807.453759Z",
+                "Screenshot 2025-07-20 at 12.36.34\u202fpm.png___20250728T034807.450427Z",
+                "Screenshot 2025-07-20 at 12.46.53\u202fpm.png___20250728T034807.454158Z",
+                "Screenshot 2025-07-22 at 8.56.52\u202fam.png___20250728T034807.466484Z",
+                "Screenshot 2025-07-22 at 8.57.30\u202fam.png___20250728T034807.455576Z",
+                "Screenshot 2025-07-25 at 1.22.39\u202fpm.png___20250728T034807.447484Z",
+                "Screenshot 2025-07-25 at 1.23.19\u202fpm.png___20250728T034807.461371Z",
+                "Screenshot 2025-07-25 at 1.33.09\u202fpm.png___20250728T034807.475787Z",
+                "Screenshot 2025-07-25 at 1.33.52\u202fpm.png___20250728T034807.467136Z",
+                "Screenshot 2025-07-25 at 9.16.50\u202fam.png___20250728T034807.457485Z",
+                "Screenshot 2025-07-25 at 9.17.31\u202fam.png___20250728T034807.447266Z",
+                "Screenshot 2025-07-28 at 1.11.50\u202fpm.png___20250728T034807.477785Z",
+                "Screenshot 2025-07-28 at 1.12.25\u202fpm.png___20250728T034807.459714Z",
+                "Screenshot 2025-07-28 at 1.35.27\u202fpm.png___20250728T034807.453856Z",
+                "Screenshot 2025-07-28 at 1.35.54\u202fpm.png___20250728T034807.463325Z",
+                "c2b79bcc2de688906400b3f862a7a16112907cad0478f5bc42eec4da7df49b96 2.JPG___20250728T034807.465524Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "SENTINFRA-SESS002",
+            "batch_screenshot_pre": "BATCH_PRE_20250728T034757Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250728T034826Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: Screenshots_SENTINFRA-SESS002, 24 files, delta=29s. folder_dual_hash computed and checked.",
+            "delta_seconds": 29,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "SENTINFRA-LOG-Screenshots_SENTINFRA-SESS002",
+            "folder_dual_hash": "a2cbf17f2734ac6cb476991b730d8ae16db48ac5"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july28.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

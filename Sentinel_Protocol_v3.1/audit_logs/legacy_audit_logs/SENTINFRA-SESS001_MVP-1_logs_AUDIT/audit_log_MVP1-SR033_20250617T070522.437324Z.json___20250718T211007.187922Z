@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2025-06-17T07:05:22.437244Z",
+        "event": "AU_PROVISIONAL_PATENT_FILED",
+        "meta_id": "MVP1-SR033",
+        "input": {
+            "jurisdiction": "IP Australia",
+            "submission_time": "2025-06-17 16:48 AEST",
+            "ip_right_number": "2025902482",
+            "batch_number": "AMCZ-2514625185",
+            "documents_submitted": [
+                "AIHS_Abstract_Telles.pdf",
+                "AIHS_Independent_Claims_Telles.pdf",
+                "AIHS_Patent_Specification_Telles.pdf",
+                "AIHS_Technical_Diagram_FIGURE1_SentinelProtocol.pdf"
+            ],
+            "description": "First jurisdictional patent filing for AI-Human Synergy\u2122 audit system under Sentinel Protocol v3.0"
+        },
+        "output": {
+            "status": "Filed - awaiting confirmation from IP Australia",
+            "next_step": "File USPTO provisional and confirm international coverage window"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0"
+        }
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "timestamp": "2025-07-29T02:11:12.430150Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "METAVAL-LOG018",
+        "input": {
+            "batch_filenames": [
+                ".DS_Store___20250729T015736.500383Z",
+                "AUDIT-EVIDENCE_VALIDATORS_REPRODUCIBILITY_METAVAL-SESS001_opentimestamps_OTS_v.july29.25.md___20250729T015736.514120Z",
+                "METAVAL-SESS001_OTS_TXID_Block_Validation_CompiledScreenshots.pdf___20250729T015736.510177Z",
+                "Screenshot 2025-07-29 at 7.43.32\u202fam.png___20250729T015736.502915Z",
+                "Screenshot 2025-07-29 at 7.47.25\u202fam.png___20250729T015736.500365Z",
+                "Screenshot 2025-07-29 at 7.47.47\u202fam.png___20250729T015736.511887Z",
+                "Screenshot 2025-07-29 at 7.51.19\u202fam.png___20250729T015736.512281Z",
+                "Screenshot 2025-07-29 at 7.52.09\u202fam.png___20250729T015736.502434Z",
+                "Screenshot 2025-07-29 at 7.53.17\u202fam.png___20250729T015736.507818Z",
+                "Screenshot 2025-07-29 at 7.54.04\u202fam.png___20250729T015736.508811Z",
+                "Screenshot 2025-07-29 at 7.54.25\u202fam.png___20250729T015736.508367Z",
+                "Screenshot 2025-07-29 at 7.54.44\u202fam.png___20250729T015736.503171Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "METAVAL-SESS002",
+            "batch_screenshot_pre": "BATCH_PRE_20250729T014752Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250729T014857Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS002_batch_evidence05_AUDIT-EVIDENCE_VALIDATORS_OTS_AUDIT_METAVAL-SESS001, 12 files, delta=65s. folder_dual_hash computed and checked.",
+            "delta_seconds": 65,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "METAVAL-LOG-METAVAL-SESS002_batch_evidence05_AUDIT-EVIDENCE_VALIDATORS_OTS_AUDIT_METAVAL-SESS001",
+            "folder_dual_hash": "55e9c7530eb76916afe13d2e5ab5d60cb3cb73a7"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july29.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

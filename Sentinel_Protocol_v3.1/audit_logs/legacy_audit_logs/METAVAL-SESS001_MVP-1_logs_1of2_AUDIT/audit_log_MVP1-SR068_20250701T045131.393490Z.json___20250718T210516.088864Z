@@ -1,0 +1,31 @@
+[
+    {
+        "timestamp": "2025-07-01T04:51:31.393328Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR068",
+        "input": {
+            "document_title": "MVP-2.4 | MedlineOvid Screenshot \u2013 Optimised Search (Step 6.1)",
+            "filename": "Optimised_Search_MedlineOvid_Screenshot 2025-06-15 at 11.46.25\u202fam.png",
+            "evidence_path": "evidence_files/Optimised_Search_MedlineOvid_Screenshot 2025-06-15 at 11.46.25\u202fam.png",
+            "sha256_file": "evidence_files/Optimised_Search_MedlineOvid_Screenshot 2025-06-15 at 11.46.25\u202fam.png.hash",
+            "ripemd160_file": "evidence_files/Optimised_Search_MedlineOvid_Screenshot 2025-06-15 at 11.46.25\u202fam.png.2ha",
+            "ots_file": "evidence_files/Optimised_Search_MedlineOvid_Screenshot 2025-06-15 at 11.46.25\u202fam.png.hash.ots",
+            "validation_step": "Validated under `HashValidatorBlock.py` with real-time hash firewall. Disk SHA256 and RIPEMD160 match confirmed against saved `.hash` and `.2ha` records. OpenTimestamps `.ots` file present and valid. Execution consistent with VALIS canonical template v1.0.",
+            "template_ref": "VALIS_Template_Canonical_v1.py"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "636ebda951dca1a3f57df20c554b3fc61afa31ce74a9736577bcc8355617193c",
+            "ripemd160": "4485ee335176e62f2f77d3cad7625065bc9e4b88"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

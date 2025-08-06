@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2025-07-01T00:28:23.668092Z",
+        "event": "AUDIT_FILE_IMMUTABILITY_LOGGED",
+        "meta_id": "MVP1-SR055",
+        "input": {
+            "document_title": "Audit \u2013 Inclusion Criteria Optimisation: Step 3 (MVP2.2)",
+            "filename": "InclusionCriteria_Optimisation_Step3_HumanExpertAudit.md",
+            "evidence_path": "evidence_files/InclusionCriteria_Optimisation_Step3_HumanExpertAudit.md",
+            "sha256_file": "evidence_files/InclusionCriteria_Optimisation_Step3_HumanExpertAudit.md.hash",
+            "ripemd160_file": "evidence_files/InclusionCriteria_Optimisation_Step3_HumanExpertAudit.md.2ha",
+            "ots_file": "evidence_files/InclusionCriteria_Optimisation_Step3_HumanExpertAudit.md.hash.ots",
+            "validation_step": "File contains retroactively generated audit log as part of MVP2.2 execution. Evidence was disclosed and confirmed with LLM1. Cryptographic hash functions (SHA256 and RIPEMD160) have been generated and timestamped. The file is now immutable, tamper-evident, and registered under: \u201cMVP-2 scientific reproducibility assurance protocol.\u201d"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "sha256": "161c72cce36b46bfd0980b15de81788b5301076e24956296e6cf2eb5976e6853",
+            "ripemd160": "533329cf4314d0108b4fb7b23d9ed11f204a3783"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v1.0.0",
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

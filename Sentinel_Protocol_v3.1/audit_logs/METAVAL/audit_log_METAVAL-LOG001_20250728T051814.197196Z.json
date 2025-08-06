@@ -1,0 +1,52 @@
+[
+    {
+        "timestamp": "2025-07-28T05:18:14.196905Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "METAVAL-LOG001",
+        "input": {
+            "batch_filenames": [
+                ".DS_Store___20250728T051514.789471Z",
+                "AUDIT-EVIDENCE_FUNC_PASS_MVP0_SESS4_SupplementFigures_ManualAudit_v.may19.25.md___20250728T051514.793203Z",
+                "AUDIT-EVIDENCE_FUNC_PASS_OCR_LLM3_MetaForest_ExtractionRawData_Telles_v.may12.25.md___20250728T051514.789610Z",
+                "AUDIT-EVIDENCE_FUNC_PASS_SentPrtclv2.0_LLM3OCR_Metafor_Match_Telles_v.may10.25.md.csv___20250728T051514.782849Z",
+                "AUDIT-EVIDENCE_FUNC_PASS_SentPrtclv2.0_OCR_LLM3_MetaForest_Extraction_Telles_v.may12.25.md___20250728T051514.798687Z",
+                "AUDIT-EVIDENCE_FUNC_PASS_SentPrtclv2.0_SESS4_MainManuscript_Figures_MATCH_TellesMeta_ForestPlotx13_v.may19.25.pdf___20250728T051514.799192Z",
+                "AUDIT-EVIDENCE_FUNC_PASS_SentPrtclv2.0_SESS4_SemiAutomated_REML_FunnelPlotsx134_v.may19.25.pdf___20250728T051514.782533Z",
+                "AUDIT-EVIDENCE_FUNC_PASS_SentPrtclv2.0_SESS4_Supplement_Figures_MATCH_TellesMeta_ForestPlotx123_v.may19.25.pdf___20250728T051514.803697Z",
+                "AUDIT_FUNC_PASS_MVP2_legacy_auditlog_renaming_table_METAVAL_v.july11.25.md___20250728T051514.785966Z",
+                "AUDIT_FUNC_PASS_SentPrtclv2.0_LLM2_memory_sync_validation_v.may2.25.json___20250728T051514.796777Z",
+                "AUDIT_FUNC_PASS_SentPrtclv2.0_LLM3OCR_Metafor_Match_Telles_v.may10.25.md___20250728T051514.802337Z",
+                "AUDIT_FUNC_PASS_SentPrtclv2.0_MVP0_ReproducibilityCompletion_v.may19.25.md___20250728T051514.788649Z",
+                "AUDIT_FUNC_PASS_SentPrtclv2.0_SESS1_Manual_DL_MetaForestplsx5_v.may10.25.md___20250728T051514.799630Z",
+                "AUDIT_FUNC_PASS_SentPrtclv2.0_SESS2_SemiAuto_DL_MetaForestplsx93_v.may12.25.md___20250728T051514.783565Z",
+                "AUDIT_FUNC_PASS_SentPrtclv2.0_SESS3_SemiAuto_DL_MetaForestplsx115_v.may18.25.md___20250728T051514.792552Z",
+                "AUDIT_FUNC_PASS_SentPrtclv2.0_SESS4_SemiAuto_REML_MetaForestplsx136_FunnelPlotsx134_v.may19.25.md___20250728T051514.802147Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "METAVAL-SESS001",
+            "batch_screenshot_pre": "BATCH_PRE_20250728T051511Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250728T051617Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS001_batch_evidence01_Sentinelv2_FUNC_AUDITS, 16 files, delta=66s. folder_dual_hash computed and checked.",
+            "delta_seconds": 66,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "METAVAL-LOG-METAVAL-SESS001_batch_evidence01_Sentinelv2_FUNC_AUDITS",
+            "folder_dual_hash": "f44d211aa7212eccf956b31d5717e1ad2621063c"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july28.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "timestamp": "2025-07-28T05:21:04.106602Z",
+        "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+        "meta_id": "METAVAL-LOG011",
+        "input": {
+            "batch_filenames": [
+                "AUDIT-EVIDENCE_FUNC_META_CrossCheck_InclusionAudit_MVP2.5_v.july13.25.md___20250728T051559.394577Z",
+                "AUDIT_FUNC_FAIL_medline_step8_bnpsearch_humanaudit_LLM1-LLM3-LLM4_v.july1.25.md___20250728T051559.384623Z",
+                "AUDIT_FUNC_PASS_absolute_field_protocol_LLM1-LLM3-LLM4_v.june8.25.md___20250728T051559.388716Z",
+                "AUDIT_FUNC_PASS_csv2md_integritycheck_LLM1_v.july2.25.md___20250728T051559.395156Z",
+                "AUDIT_FUNC_PASS_csv_master_split_integrity_LLM1-LLM2_v.july2.25.md___20250728T051559.394394Z",
+                "AUDIT_FUNC_PASS_disagreement_LLM3_fail_LLM4_pass_summary_v.june9.25.md___20250728T051559.398638Z",
+                "AUDIT_FUNC_PASS_duplicate_flag_protocol_LLM1-LLM3-LLM4_v.june8.25.md___20250728T051559.382306Z",
+                "AUDIT_FUNC_PASS_inclusioncriteria_step3_humanaudit_LLM1-LLM3-LLM4_v.june2.25.md___20250728T051559.395307Z",
+                "AUDIT_FUNC_PASS_medline_step3_searchopt_humanaudit_LLM1-LLM3-LLM4_v.june15.25.md___20250728T051559.394675Z",
+                "AUDIT_FUNC_PASS_medline_step6_searchopt_humanaudit_LLM1-LLM3-LLM4_v.june15.25.md___20250728T051559.390794Z",
+                "AUDIT_FUNC_PASS_medline_step7_searchexecuted_humanaudit_LLM1-LLM3-LLM4_v.june24.25.md___20250728T051559.394274Z",
+                "AUDIT_FUNC_PASS_protocolgen_step4_humanaudit_LLM1-LLM3-LLM4_v.june18.25.md___20250728T051559.397871Z"
+            ],
+            "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+            "session_context": "METAVAL-SESS001",
+            "batch_screenshot_pre": "BATCH_PRE_20250728T051511Z.png",
+            "batch_screenshot_post": "BATCH_POST_20250728T051617Z.png",
+            "validation_step": "VALIS v2.4 enforcement active. Meta-ID: METAVAL-SESS001_batch_evidence11_Sentinel_Meta-analysis_Execution_FUNC_AUDITS, 12 files, delta=66s. folder_dual_hash computed and checked.",
+            "delta_seconds": 66,
+            "executed_template": "valis_batchauditlogger_template.py (v2.4)"
+        },
+        "output": {
+            "status": "verifiable",
+            "verifiable": true,
+            "final_hash_disclosed": false,
+            "audit_type": "REPRODUCIBILITY",
+            "meta_id": "METAVAL-LOG-METAVAL-SESS001_batch_evidence11_Sentinel_Meta-analysis_Execution_FUNC_AUDITS",
+            "folder_dual_hash": "7bad76e6257d18ac7262a5b7697ded9ca69e6880"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july28.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

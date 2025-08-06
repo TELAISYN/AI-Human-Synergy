@@ -1,0 +1,35 @@
+[
+    {
+        "timestamp": "2025-07-25T00:10:32.263651Z",
+        "event": "VALIDATOR_REPRODUCIBILITY_PASS",
+        "meta_id": "SENTINFRA-SESS002",
+        "input": {
+            "document_title": "Independent Engineer Validator \u2013 PreDeployment Reproducibility PASS",
+            "filename": "AUDIT-EVIDENCE_ENGHOOKEY-VAL_REPRODUCIBILITY_SENTINFRA_PreDeployment_sha256_ripemd160_v.july23.25.md___20250724T231704.083888Z",
+            "evidence_path": "evidence_files/AUDIT-EVIDENCE_ENGHOOKEY-VAL_REPRODUCIBILITY_SENTINFRA_PreDeployment_sha256_ripemd160_v.july23.25.md___20250724T231704.083888Z",
+            "sha256_file": "evidence_files/AUDIT-EVIDENCE_ENGHOOKEY-VAL_REPRODUCIBILITY_SENTINFRA_PreDeployment_sha256_ripemd160_v.july23.25.md___20250724T231704.083888Z.hash",
+            "ripemd160_file": "evidence_files/AUDIT-EVIDENCE_ENGHOOKEY-VAL_REPRODUCIBILITY_SENTINFRA_PreDeployment_sha256_ripemd160_v.july23.25.md___20250724T231704.083888Z.2ha",
+            "ots_file": "evidence_files/AUDIT-EVIDENCE_ENGHOOKEY-VAL_REPRODUCIBILITY_SENTINFRA_PreDeployment_sha256_ripemd160_v.july23.25.md___20250724T231704.083888Z.hash.ots",
+            "validator_id": "ENGHOOKEY-VAL001",
+            "session_meta_id": "SENTINFRA-SESS002",
+            "validation_step": "Independent engineer validator (ENGHOOKEY-VAL001) confirms reproducibility integrity of PreDeployment audit file. Hashes validated via `hashvalidatorblock.py`. File is ready for OP_RETURN payload execution and Bitcoin anchoring."
+        },
+        "output": {
+            "status": "pass",
+            "validator_id": "ENGHOOKEY-VAL001",
+            "verifiable": true,
+            "sha256": "4cb506ef67fe4929df38e06d699140f93452279f602721c99fc1f24cacdf0fbc",
+            "ripemd160": "cc4652bfc2ffb00d81982ddff11a704204fe8c15"
+        },
+        "audit": {
+            "AI_used": true,
+            "LLM_used": "LLM1",
+            "human_verified": true,
+            "module_version": "v.july25.25",
+            "ai_editor_LLM_human_agreement": true,
+            "VALIS_template_enforced": true,
+            "AI_override": false
+        },
+        "timestamp_confirmed": true
+    }
+]

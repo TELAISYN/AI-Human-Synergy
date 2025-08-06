@@ -1,0 +1,28 @@
+{
+    "meta_id": "SENTINFRA-SESS011",
+    "audits": [
+        {
+            "meta_id": "SENTINFRA-SESS011",
+            "anchored_file": {
+                "session_log": "session_log_SENTINFRA-SESS011_20250802T235546.017997Z.json",
+                "sha256": "6ffab34bf1eaf9ba9fc86bba6abf9b4d00c630965e680db19e8e3b3f93769614",
+                "2ha": "267d75fce31ad442e6f858c8f10f15e511f8dd51",
+                "ots": "session_log_SENTINFRA-SESS011_20250802T235546.017997Z.hash.ots"
+            },
+            "confirmation_log": {
+                "audit_log": "audit_log_SENTINFRA-SESS011_20250803T000806.024503Z.json",
+                "sha256": "80fa9c165115ebeb0a4e1e018e277af003c3db469b1322763a40374000f4e249",
+                "2ha": "a4d17d2446c5bc397a5b4c892ac40e27249b4a51",
+                "ots": "audit_log_SENTINFRA-SESS011_20250803T000806.024503Z.hash.ots"
+            },
+            "op_return": {
+                "txid": "b600bfc29c42cbdef13aea5ac3fc42d5e59913b935e0da5de0f04fe299bb8bd1",
+                "block_height": 908326,
+                "payload": "SENTINEL|SENTINFRA-SESS011|267d75fce31ad442e6f858c8f10f15e511f8dd51"
+            },
+            "validated_by": "VALIS_v2.4",
+            "status": "anchored",
+            "timestamp": "2025-08-03T22:50:13.158311Z"
+        }
+    ]
+}
