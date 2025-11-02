@@ -1,0 +1,89 @@
+{
+  "ts_utc": "20251028T043751Z",
+  "root": "/Users/rosmontos/AuditLog.AI_UserSimulation_SentinelProtocolv4_AIHumanSynergy/validation_batch_stream/REGULATORY-RUN14_C12",
+  "pre_inventory": "/Users/rosmontos/AuditLog.AI_UserSimulation_SentinelProtocolv4_AIHumanSynergy/validation_batch_stream/REGULATORY-RUN14_C12/pre_inventory_20251028T043714Z.json",
+  "pre_total_inputs": 22,
+  "require_ots": true,
+  "global_sums": {
+    "hash": 22,
+    "twoha": 22,
+    "processed_originals": 22,
+    "manifest_rows": 22,
+    "ots": 22
+  },
+  "per_batch": [
+    {
+      "meta": "CME_REGULATORY-RUN-20251028-S01",
+      "hash": 1,
+      "twoha": 1,
+      "processed_originals": 1,
+      "manifest_rows": 1,
+      "ots": 1,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251028-S02",
+      "hash": 2,
+      "twoha": 2,
+      "processed_originals": 2,
+      "manifest_rows": 2,
+      "ots": 2,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251028-S03",
+      "hash": 1,
+      "twoha": 1,
+      "processed_originals": 1,
+      "manifest_rows": 1,
+      "ots": 1,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251028-S04",
+      "hash": 3,
+      "twoha": 3,
+      "processed_originals": 3,
+      "manifest_rows": 3,
+      "ots": 3,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251028-S05",
+      "hash": 4,
+      "twoha": 4,
+      "processed_originals": 4,
+      "manifest_rows": 4,
+      "ots": 4,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251028-S06",
+      "hash": 5,
+      "twoha": 5,
+      "processed_originals": 5,
+      "manifest_rows": 5,
+      "ots": 5,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251028-S07",
+      "hash": 6,
+      "twoha": 6,
+      "processed_originals": 6,
+      "manifest_rows": 6,
+      "ots": 6,
+      "status": "OK",
+      "note": ""
+    }
+  ],
+  "verdict": "PASS",
+  "globals_ok": true,
+  "all_batches_ok": true
+}

@@ -1,0 +1,28 @@
+{
+  "ts_utc": "20251028T043714Z",
+  "root": "/Users/rosmontos/AuditLog.AI_UserSimulation_SentinelProtocolv4_AIHumanSynergy/validation_batch_stream/REGULATORY-RUN14_C12",
+  "scope": "top-level-folders",
+  "out_prefixes": [
+    "hash_",
+    "2ha_",
+    "ots_",
+    "processed_originals_",
+    "frozen_files_",
+    "screenshots_",
+    "xcreenshots_",
+    "xscreenshots_",
+    "session_logs",
+    "frozen_sources"
+  ],
+  "batches": [
+    {
+      "folder": "CME",
+      "count": 1
+    },
+    {
+      "folder": "xarchive_build_files",
+      "count": 21
+    }
+  ],
+  "total_inputs": 22
+}

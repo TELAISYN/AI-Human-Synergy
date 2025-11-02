@@ -1,0 +1,7 @@
+{
+  "run_id": "REGULATORY-RUN-20251027",
+  "session_context": "AuditLogAI.REG.GlobalSubmission.v4-RUN-20251027-S01",
+  "pre": {"path": "/Users/rosmontos/AuditLog.AI_UserSimulation_SentinelProtocolv4_AIHumanSynergy/validation_batch_stream/REGULATORY-RUN13_DOSSIER/frozen_sources/REGULATORY-RUN-20251027/screenshots/PRE_20251027T231047Z.png", "sha256": "e58cc1cece28e7cf29dcb5678dad98183be46bf2ee8d1852516c7579ff1ebac1", "ripemd160_sha256": "6590650de9bbf7d3b4c7b539196443ac436e1448"},
+  "post": {"path": "/Users/rosmontos/AuditLog.AI_UserSimulation_SentinelProtocolv4_AIHumanSynergy/validation_batch_stream/REGULATORY-RUN13_DOSSIER/frozen_sources/REGULATORY-RUN-20251027/screenshots/POST_20251027T231055Z.png", "sha256": "f407d1724bfd104faff4f01b26af45a1bf95756019dc7abb9183ec5c0e928c19", "ripemd160_sha256": "09cd8ee85f0f2c6bc431c09c691968fc06bbf446"},
+  "generated_at_utc": "20251027T231055Z"
+}

@@ -1,0 +1,8 @@
+meta_id,src,files_processed,manifest
+REGULATORY-RUN-20251028-S01,CME,1,manifest_CME_REGULATORY-RUN-20251028-S01.csv
+REGULATORY-RUN-20251028-S02,xarchive_build_files,2,manifest_xarchive_build_files_REGULATORY-RUN-20251028-S02.csv
+REGULATORY-RUN-20251028-S03,xarchive_build_files,1,manifest_xarchive_build_files_REGULATORY-RUN-20251028-S03.csv
+REGULATORY-RUN-20251028-S04,xarchive_build_files,3,manifest_xarchive_build_files_REGULATORY-RUN-20251028-S04.csv
+REGULATORY-RUN-20251028-S05,xarchive_build_files,4,manifest_xarchive_build_files_REGULATORY-RUN-20251028-S05.csv
+REGULATORY-RUN-20251028-S06,xarchive_build_files,5,manifest_xarchive_build_files_REGULATORY-RUN-20251028-S06.csv
+REGULATORY-RUN-20251028-S07,xarchive_build_files,6,manifest_xarchive_build_files_REGULATORY-RUN-20251028-S07.csv

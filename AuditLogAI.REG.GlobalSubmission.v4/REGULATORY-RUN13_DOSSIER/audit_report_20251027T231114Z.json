@@ -1,0 +1,89 @@
+{
+  "ts_utc": "20251027T231114Z",
+  "root": "/Users/rosmontos/AuditLog.AI_UserSimulation_SentinelProtocolv4_AIHumanSynergy/validation_batch_stream/REGULATORY-RUN13_DOSSIER",
+  "pre_inventory": "/Users/rosmontos/AuditLog.AI_UserSimulation_SentinelProtocolv4_AIHumanSynergy/validation_batch_stream/REGULATORY-RUN13_DOSSIER/pre_inventory_20251027T231029Z.json",
+  "pre_total_inputs": 107,
+  "require_ots": true,
+  "global_sums": {
+    "hash": 107,
+    "twoha": 107,
+    "processed_originals": 107,
+    "manifest_rows": 107,
+    "ots": 107
+  },
+  "per_batch": [
+    {
+      "meta": "Submission_file_dossier_REGULATORY-RUN-20251027-S01",
+      "hash": 1,
+      "twoha": 1,
+      "processed_originals": 1,
+      "manifest_rows": 1,
+      "ots": 1,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251027-S02",
+      "hash": 17,
+      "twoha": 17,
+      "processed_originals": 17,
+      "manifest_rows": 17,
+      "ots": 17,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251027-S03",
+      "hash": 41,
+      "twoha": 41,
+      "processed_originals": 41,
+      "manifest_rows": 41,
+      "ots": 41,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251027-S04",
+      "hash": 42,
+      "twoha": 42,
+      "processed_originals": 42,
+      "manifest_rows": 42,
+      "ots": 42,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251027-S05",
+      "hash": 1,
+      "twoha": 1,
+      "processed_originals": 1,
+      "manifest_rows": 1,
+      "ots": 1,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251027-S06",
+      "hash": 2,
+      "twoha": 2,
+      "processed_originals": 2,
+      "manifest_rows": 2,
+      "ots": 2,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "xarchive_build_files_REGULATORY-RUN-20251027-S07",
+      "hash": 3,
+      "twoha": 3,
+      "processed_originals": 3,
+      "manifest_rows": 3,
+      "ots": 3,
+      "status": "OK",
+      "note": ""
+    }
+  ],
+  "verdict": "PASS",
+  "globals_ok": true,
+  "all_batches_ok": true
+}
