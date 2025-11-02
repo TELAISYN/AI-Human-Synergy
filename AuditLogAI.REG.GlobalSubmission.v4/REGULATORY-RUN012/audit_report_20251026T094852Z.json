@@ -1,0 +1,39 @@
+{
+  "ts_utc": "20251026T094852Z",
+  "root": "/Users/rosmontos/AuditLog.AI_UserSimulation_SentinelProtocolv4_AIHumanSynergy/validation_batch_stream/REGULATORY-RUN012",
+  "pre_inventory": "/Users/rosmontos/AuditLog.AI_UserSimulation_SentinelProtocolv4_AIHumanSynergy/validation_batch_stream/REGULATORY-RUN012/pre_inventory_20251026T094818Z.json",
+  "pre_total_inputs": 40,
+  "require_ots": true,
+  "global_sums": {
+    "hash": 40,
+    "twoha": 40,
+    "processed_originals": 40,
+    "manifest_rows": 40,
+    "ots": 40
+  },
+  "per_batch": [
+    {
+      "meta": "AUDIT_REPRODUCIBILITY_PASS_FDA_DualHash_LiveReExecution_FT_REGULATORY-RUN-20251026-S01",
+      "hash": 29,
+      "twoha": 29,
+      "processed_originals": 29,
+      "manifest_rows": 29,
+      "ots": 29,
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "meta": "AUDIT_frozen_sources_REGULATORY-RUN-20251026-S02",
+      "hash": 11,
+      "twoha": 11,
+      "processed_originals": 11,
+      "manifest_rows": 11,
+      "ots": 11,
+      "status": "OK",
+      "note": ""
+    }
+  ],
+  "verdict": "PASS",
+  "globals_ok": true,
+  "all_batches_ok": true
+}

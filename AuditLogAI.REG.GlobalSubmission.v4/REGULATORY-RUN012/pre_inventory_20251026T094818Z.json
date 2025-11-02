@@ -1,0 +1,28 @@
+{
+  "ts_utc": "20251026T094818Z",
+  "root": "/Users/rosmontos/AuditLog.AI_UserSimulation_SentinelProtocolv4_AIHumanSynergy/validation_batch_stream/REGULATORY-RUN012",
+  "scope": "top-level-folders",
+  "out_prefixes": [
+    "hash_",
+    "2ha_",
+    "ots_",
+    "processed_originals_",
+    "frozen_files_",
+    "screenshots_",
+    "xcreenshots_",
+    "xscreenshots_",
+    "session_logs",
+    "frozen_sources"
+  ],
+  "batches": [
+    {
+      "folder": "AUDIT_frozen_sources",
+      "count": 11
+    },
+    {
+      "folder": "AUDIT_REPRODUCIBILITY_PASS_FDA_DualHash_LiveReExecution_FT",
+      "count": 29
+    }
+  ],
+  "total_inputs": 40
+}

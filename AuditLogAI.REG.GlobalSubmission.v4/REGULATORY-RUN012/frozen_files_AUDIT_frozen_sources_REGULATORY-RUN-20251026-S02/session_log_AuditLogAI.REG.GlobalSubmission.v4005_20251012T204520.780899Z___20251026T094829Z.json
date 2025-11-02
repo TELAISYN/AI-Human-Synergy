@@ -1,0 +1,123 @@
+{
+    "session_meta_id": "AuditLogAI.REG.GlobalSubmission.v4005",
+    "timestamp": "20251012T204520.780899Z",
+    "compiled_logs": [
+        {
+            "file": "audit_log_AuditLogAI.REG.GlobalSubmission.v4001_20251012T203709.581616Z.json",
+            "meta_id": "AuditLogAI.REG.GlobalSubmission.v4001",
+            "timestamp": "20251012T203709.581616Z",
+            "entries": [
+                {
+                    "timestamp": "2025-10-12T20:37:09.581597Z",
+                    "event": "ANCHOR_OP_RETURN_REGISTERED",
+                    "meta_id": "AuditLogAI.REG.GlobalSubmission.v4001",
+                    "input": {
+                        "session_context": "AuditLogAI.REG.GlobalSubmission.v4-RUN-20251012-S01",
+                        "session_meta_id": "AuditLogAI.REG.GlobalSubmission.v4001",
+                        "txid": "2ceecfb433f1f05d4023f2f45eacd2a0d4bbe18d6086063aa340f5c66a5e88a9",
+                        "block_height": 918769,
+                        "payload": "SENTINEL|SESSION|9da9157e665088e67a2dfbda5cb7140c3895eec8|29878732",
+                        "source_receipt": "(bundle:AuditLogAI.REG.GlobalSubmission.v4001)",
+                        "hash_source": "bundle.job_hashes"
+                    },
+                    "output": {
+                        "status": "anchored",
+                        "anchored": true,
+                        "txid": "2ceecfb433f1f05d4023f2f45eacd2a0d4bbe18d6086063aa340f5c66a5e88a9",
+                        "block": 918769,
+                        "payload": "SENTINEL|SESSION|9da9157e665088e67a2dfbda5cb7140c3895eec8|29878732",
+                        "sha256": "298787323e3b46f9975bb1856bbb9b6f2a8d5eb677c4d9a9c949382744c66dc7",
+                        "ripemd160": "9da9157e665088e67a2dfbda5cb7140c3895eec8"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.october12.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "reviewer": "Dr. Fernando Telles",
+                        "human_signature": {
+                            "signer": "Dr. Fernando Telles",
+                            "decision": "approved",
+                            "reason": "anchor confirmed on-chain",
+                            "signed_at_utc": "2025-10-12T20:37:09Z",
+                            "txid": "2ceecfb433f1f05d4023f2f45eacd2a0d4bbe18d6086063aa340f5c66a5e88a9",
+                            "block": 918769,
+                            "signed_at": "2025-10-12T20:37:09.581602Z"
+                        },
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "f819fe02dccc57c9bac3834cb9333c552019b65cdcdca5462d01176a38490928",
+            "2ha": "8856c971bfc804f041e8e33cebb7bd359db4a8e1",
+            "ots_file": "audit_log_AuditLogAI.REG.GlobalSubmission.v4001_20251012T203709.581616Z.hash.ots"
+        },
+        {
+            "file": "audit_log_AuditLogAI.REG.GlobalSubmission.v4005_20251012T204508.146233Z.json",
+            "meta_id": "AuditLogAI.REG.GlobalSubmission.v4005",
+            "timestamp": "20251012T204508.146233Z",
+            "entries": [
+                {
+                    "timestamp": "2025-10-12T20:45:08.145629Z",
+                    "event": "AUDIT_BATCH_EVIDENCE_VERIFIED",
+                    "meta_id": "AuditLogAI.REG.GlobalSubmission.v4005",
+                    "input": {
+                        "batch_filenames": [
+                            "C1.1_SIASE_v4___20251012T204425Z.md",
+                            "C1.3_SNTPTC_PlaceholderTaggingProtocol_v4___20251012T204425Z.md",
+                            "C10_AuditLog.AI_HumanSignatureGate_Blueprint___20251012T204425Z.md",
+                            "C11_RefinementProposal_CRO_Pilot_v1.0___20251012T204425Z.md",
+                            "C5.2.7_RetrievalIntegrityMetrics_v4___20251012T204425Z.md",
+                            "C5.2_EthicsFirewall_v4___20251012T204425Z.md",
+                            "C5.3.1_OPRETURN_PayloadSchema_Sentinelv4___20251012T204425Z.md",
+                            "C5.3_ComplianceEnforcementMatrix_v4___20251012T204425Z.md",
+                            "C7.0_MultiAgentMemorySync_update_v.4___20251012T204425Z.md",
+                            "C8.3.1_AnchorCandidateCLI_v4___20251012T204425Z.md",
+                            "C8.3.2_Anchoring_Pipeline_v4___20251012T204425Z.md",
+                            "C9.5_ZeroCustodyReproducibilityProtocol_v4___20251012T204425Z.md",
+                            "C9.9_AMPLIFY_LEDGER_and_SessionLog_Explainer_v4___20251012T204425Z.md"
+                        ],
+                        "evidence_type": "SHA256-RIPEMD160 reproducibility (deferred)",
+                        "session_context": "AuditLogAI.REG.GlobalSubmission.v4-RUN-20251012-S01",
+                        "batch_screenshot_pre": "PRE_20251012T204425Z.png",
+                        "batch_screenshot_post": "POST_20251012T204428Z.png",
+                        "validation_step": "valis_batchauditlogger_template_v3.1 active. Meta-ID: SentinelProtocol_AuditLog.AI_Cannonical_v4_REGULATORY-RUN-20251012-S01, 13 files, delta=3s. folder_dual_hash computed and checked.",
+                        "delta_seconds": 3,
+                        "executed_template": "valis_batchauditlogger_template_v3.1"
+                    },
+                    "output": {
+                        "status": "verifiable",
+                        "verifiable": true,
+                        "final_hash_disclosed": false,
+                        "audit_type": "REPRODUCIBILITY",
+                        "meta_id": "AuditLogAI.REG.GlobalSubmission.v4-LOG-SentinelProtocol_AuditLog.AI_Cannonical_v4_REGULATORY-RUN-20251012-S01",
+                        "folder_dual_hash": "a7c6eacdaeeae91256b6f92d9be594576043fff2"
+                    },
+                    "audit": {
+                        "AI_used": true,
+                        "LLM_used": "LLM1",
+                        "human_verified": true,
+                        "module_version": "v.october12.25",
+                        "ai_editor_LLM_human_agreement": true,
+                        "VALIS_template_enforced": true,
+                        "reviewer": "Dr. Fernando Telles",
+                        "human_signature": {
+                            "signer": "DRTELLES",
+                            "decision": "approved",
+                            "reason": "batch verified; 13 files; \u0394=3s; PRE=PRE_20251012T204425Z.png; POST=POST_20251012T204428Z.png",
+                            "signed_at": "2025-10-12T20:45:08.145662Z"
+                        },
+                        "AI_override": false
+                    },
+                    "timestamp_confirmed": true
+                }
+            ],
+            "sha256": "f5d0dff2889bf1b4fe4d2f45abc12bee7ff6a4d6d34b2a2d0007f05fad772238",
+            "2ha": "e0e02cfc1d86e9bf1c7c0ac16a8e36079cf60e19",
+            "ots_file": "audit_log_AuditLogAI.REG.GlobalSubmission.v4005_20251012T204508.146233Z.hash.ots"
+        }
+    ]
+}

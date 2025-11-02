@@ -1,0 +1,4 @@
+meta,hash,.2ha,processed_originals,manifest_rows,.ots,status,note
+AUDIT_REPRODUCIBILITY_PASS_FDA_DualHash_LiveReExecution_FT_REGULATORY-RUN-20251026-S01,29,29,29,29,29,OK,
+AUDIT_frozen_sources_REGULATORY-RUN-20251026-S02,11,11,11,11,11,OK,
+__GLOBALS__,40,40,40,40,40,PASS,pre_total=40
